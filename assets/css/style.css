@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* General styles to push footer down, header to top and body full screen*/
+/* General styles for the BODY element only. */
 body {
     min-height: 100vh;
     display: flex;
