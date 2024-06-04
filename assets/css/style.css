@@ -4,9 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* General styles to push footer down, header to top and body full screen*/
+body {
+    min-height:  100vh;
+    display: flex;
+    flex-direction: column;
+    /*General colour styles for the body*/
+    color: #3a3a3a;
+}
+
+
  /* H1 Color */
-header {background-color:lightcoral;}
+header {
+    background-color:lightcoral;
+}
 /* Main */
-Main {background-color:orange;}
+Main {
+    background-color:orange;
+    /*Flex to take up whole space*/
+    flex: 1,0,auto;
+}
 /* footer */
 footer {background-color: red;}
