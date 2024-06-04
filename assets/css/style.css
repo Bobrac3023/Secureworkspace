@@ -1,4 +1,10 @@
-/* H1 Color */
+/* adding setting to overide default browser settings*/
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* H1 Color */
 header {background-color:lightcoral;}
 /* Main */
 Main {background-color:orange;}
