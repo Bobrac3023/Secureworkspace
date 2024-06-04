@@ -1,12 +1,13 @@
 /* adding setting to overide default browser settings*/
 * {
-    padding:0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles to push footer down, header to top and body full screen*/
 body {
-    min-height:  100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*General colour styles for the body*/
@@ -14,15 +15,19 @@ body {
 }
 
 
- /* H1 Color */
+/* H1 Color */
 header {
-    background-color:lightcoral;
+    background-color: lightcoral;
 }
+
 /* Main */
 Main {
-    background-color:orange;
+    background-color: bisque;
     /*Flex to take up whole space*/
-    flex: 1,0,auto;
+    flex: 1 0 auto;
 }
+
 /* footer */
-footer {background-color: red;}
+footer {
+    background-color: lightblue;
+}
