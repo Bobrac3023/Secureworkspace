@@ -26,6 +26,7 @@ Main {
     /*Flex to take up whole space*/
     flex: 1 0 auto;
 }
+/* more space between h2 and h3 */
 
 /* footer */
 footer {
