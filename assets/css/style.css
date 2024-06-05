@@ -25,7 +25,10 @@ body {
 header {
     background-color: lightcoral;
 }
-
+/* Sans-serif Font for our header H1*/
+h1{
+    font-family: 'Oswald';sans-serif;
+}
 /* Main */
 Main {
     background-color: bisque;
