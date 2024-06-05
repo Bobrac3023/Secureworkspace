@@ -25,6 +25,7 @@ body {
 header {
     /* using hex code for color Azure */
     background-color: #f0ffff;
+    /* padding top,bottom and right left relative to font size of root element*/
     padding: 1rem, 1rem;
     position: fixed;
     /*Overlapping elements with a larger z-index cover those with a smaller one*/
