@@ -37,6 +37,7 @@ header {
     width: 100%;
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
+    
 
 }
 
@@ -51,25 +52,26 @@ h1 {
     font-family: 'Oswald', sans-serif;
     /*Controls capitalization effects of an element's text*/
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #252525;
-
+    float: left;
 }
 
 #menu {
     /*text at 110%,letter spacing 4px and list-item marker to remove bullet points*/
-    letter-spacing: 4px;
-    font-size: 110%;
+    letter-spacing: 1px;
+    font-size: 100%;
     list-style-type: none;
-}
+        }
 
 /* here we are spacing nav bar list items vertically*/
 #menu>li {
     /*1em means 1 times the size of the current font*/
     margin-bottom: 1em;
-    float:right
-
-}
+    float: right;
+    font-size:large;
+    
+        }
 
 /* visual cue to show user where he is on the website*/
 .active {
@@ -78,15 +80,13 @@ h1 {
 
 nav {
     /*The Nav bar element is positioned relative to its first positioned (not static) ancestor element */
-    position: absolute;
+    position: relative;
     background-color: #f0ffff;
     width: 100%;
     padding: 0rem 1rem;
     left: 0;
     box-shadow: 2px 2px 2px #3a3a3a;
-    /* nav bar is hidden until user clicks on it*/
-    /*#display: none; to check this later */
-}
+    }
 
 /* Main */
 Main {
