@@ -33,12 +33,19 @@ header {
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
 }
-
+header a {
+    /*Remove Decorations applied to A tag which is a descendant of the header element */
+    text-decoration: none;
+    #color: inherit;
+}
 /* Sans-serif Font for our header H1*/
 h1 {
-    font-family: 'Oswald';
-    sans-serif;
+    font-family: 'Oswald' sans-serif;
+    /*Controls capitalization effects of an element's text*/
+    text-transform: uppercase;
+    
 }
+
 
 /* Main */
 Main {
