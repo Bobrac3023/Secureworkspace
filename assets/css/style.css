@@ -37,6 +37,7 @@ header {
     width: 100%;
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
+    
 }
 
 header a {
@@ -82,7 +83,7 @@ nav {
     left: 0;
     box-shadow: 2px 2px 2px #3a3a3a;
     /* nav bar is hidden until user clicks on it*/
-    display: none;
+    #display: none;
 }
 
 /* Main */
