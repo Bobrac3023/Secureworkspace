@@ -60,11 +60,16 @@ h1 {
     font-size: 110%;
     list-style-type: none;
 }
-    /* here we are spacing nav bar items vertically*/
+    /* here we are spacing nav bar list items vertically*/
 #menu > li {
     /*1em means 1 times the size of the current font*/
     margin-bottom: 1em;
 }
+/* visual cue to show user where he is on the website*/
+.active {
+border-bottom: 1px solid #3a3a3a
+}
+
 /* Main */
 Main {
     background-color: bisque;
