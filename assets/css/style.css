@@ -23,19 +23,30 @@ body {
 
 /* H1 Color */
 header {
-    /* using hex code for color Azure https://html-color.codes/white*/
-    background-color: #f0ffff ;
+    /* using hex code for color Azure */
+    background-color: #f0ffff;
+    padding: 1rem, 1rem;
+    position: fixed;
+    /*Overlapping elements with a larger z-index cover those with a smaller one*/
+    z-index: 99;
+    width: 100%;
+    /*adds shadow effects around the element header frame.*/
+    box-shadow: 2px 2px 2px #3a3a3a;
 }
+
 /* Sans-serif Font for our header H1*/
-h1{
-    font-family: 'Oswald';sans-serif;
+h1 {
+    font-family: 'Oswald';
+    sans-serif;
 }
+
 /* Main */
 Main {
     background-color: bisque;
     /*Flex to take up whole space*/
     flex: 1 0 auto;
 }
+
 /* more space between h2 and h3 */
 
 /* footer */
