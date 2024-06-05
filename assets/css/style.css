@@ -6,9 +6,11 @@
 /* adding setting to overide default browser settings*/
 * {
     /*using box model as reference to set padding and margins to ZERO. Both are transparent*/
+    /*the width and height we assign to an element is applied only to the element's content box*/
     padding: 0;
     margin: 0;
-    /*Specifies the behavior of the 'width' and 'height' properties.*/
+    /*tells the browser to account for any border and padding in the values 
+    you specify for an element's width and height.*/
     box-sizing: border-box;
 }
 
@@ -28,7 +30,7 @@ header {
     /* using hex code for color Azure */
     background-color: #f0ffff;
     /* padding top,bottom and right left relative to font size of root element*/
-    padding: 1rem, 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     /*Overlapping elements with a larger z-index cover those with a smaller one*/
     z-index: 99;
@@ -45,7 +47,7 @@ header a {
 
 /* Sans-serif Font for our header H1*/
 h1 {
-    font-family: 'Oswald' sans-serif;
+    font-family: 'Oswald', sans-serif;
     /*Controls capitalization effects of an element's text*/
     text-transform: uppercase;
 
