@@ -23,7 +23,8 @@ body {
 
 /* H1 Color */
 header {
-    background-color: lightcoral;
+    /* using hex code for color Azure https://html-color.codes/white*/
+    background-color: #f0ffff ;
 }
 /* Sans-serif Font for our header H1*/
 h1{
