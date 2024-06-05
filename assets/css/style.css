@@ -54,7 +54,12 @@ h1 {
     color: #252525;
 
 }
-
+#menu {
+    /*text at 130%,letter spacing 4px and list-item marker to remove bullet points*/
+    letter-spacing: 4px;
+    font-size: 110%;
+    list-style-type: none;
+}
 
 /* Main */
 Main {
