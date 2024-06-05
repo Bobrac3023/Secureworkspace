@@ -62,6 +62,8 @@ h1 {
     letter-spacing: 1px;
     font-size: 100%;
     list-style-type: none;
+    
+    
         }
 
 /* here we are spacing nav bar list items vertically*/
@@ -70,6 +72,10 @@ h1 {
     margin-bottom: 1em;
     float: right;
     font-size:large;
+    padding: 10px;
+    border-width: 1px;
+    margin: 5px;
+
     
         }
 
