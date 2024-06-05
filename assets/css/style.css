@@ -37,13 +37,13 @@ header {
     width: 100%;
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
-    
+
 }
 
 header a {
     /*Remove Decorations applied to A tag which is a descendant of the header element */
     text-decoration: none;
-    #color: inherit;
+    /*color: inherit;  to check this later*/
 }
 
 /* Sans-serif Font for our header H1*/
@@ -67,6 +67,8 @@ h1 {
 #menu>li {
     /*1em means 1 times the size of the current font*/
     margin-bottom: 1em;
+    float:right
+
 }
 
 /* visual cue to show user where he is on the website*/
@@ -83,7 +85,7 @@ nav {
     left: 0;
     box-shadow: 2px 2px 2px #3a3a3a;
     /* nav bar is hidden until user clicks on it*/
-    #display: none;
+    /*#display: none; to check this later */
 }
 
 /* Main */
