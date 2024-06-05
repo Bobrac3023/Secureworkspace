@@ -52,4 +52,6 @@ Main {
 /* footer */
 footer {
     background-color: lightblue;
+    /*adds shadow effects around the footer element frame.*/
+    box-shadow: 0px 0px 2px #3a3a3a;
 }
