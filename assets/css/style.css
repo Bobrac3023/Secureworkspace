@@ -50,6 +50,8 @@ h1 {
     font-family: 'Oswald', sans-serif;
     /*Controls capitalization effects of an element's text*/
     text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 
 }
 
