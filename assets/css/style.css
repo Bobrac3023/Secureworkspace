@@ -37,10 +37,7 @@ header {
     width: 100%;
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
-    
-
 }
-
 header a {
     /*Remove Decorations applied to A tag which is a descendant of the header element */
     text-decoration: none;
@@ -56,43 +53,36 @@ h1 {
     color: #252525;
     float: left;
 }
-
 #menu {
-    /*text at 110%,letter spacing 4px and list-item marker to remove bullet points*/
-    letter-spacing: 1px;
-    font-size: 100%;
+    /*marker to remove bullet points*/
     list-style-type: none;
-    
-    
-        }
-
-/* here we are spacing nav bar list items vertically*/
+    float:right    
+    position: inherit;
+}
+/* here we are spacing nav bar list items horizontally*/
 #menu>li {
     /*1em means 1 times the size of the current font*/
-    margin-bottom: 1em;
-    float: right;
-    font-size:large;
-    padding: 10px;
-    border-width: 1px;
-    margin: 5px;
-
+        font-size: small;
+        padding: 10px;
+        border-width: 1px;
+        margin: 5px;
+        margin-bottom: 1em;
+        float: right;
+        position:inherit
+         
+        
+}
     
-        }
+    
 
 /* visual cue to show user where he is on the website*/
 .active {
     border-bottom: 1px solid #3a3a3a
 }
 
-nav {
-    /*The Nav bar element is positioned relative to its first positioned (not static) ancestor element */
-    position: relative;
-    background-color: #f0ffff;
-    width: 100%;
-    padding: 0rem 1rem;
-    left: 0;
-    box-shadow: 2px 2px 2px #3a3a3a;
-    }
+
+
+
 
 /* Main */
 Main {
