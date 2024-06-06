@@ -52,7 +52,7 @@ h1 {
     letter-spacing: 1px;
     color: #252525;
     float: left;
-}
+    }
 #menu {
     /*marker to remove bullet points*/
     list-style-type: none;
@@ -62,8 +62,11 @@ h1 {
     /*1em means 1 times the size of the current font*/
         float: right; 
         font-size: large;
-        margin:8px
-        
+        margin-top:14px;
+        margin-left:14px;
+
+
+
 }
     
     
