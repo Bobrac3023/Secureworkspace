@@ -38,6 +38,7 @@ header {
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
 }
+
 header a {
     /*Remove Decorations applied to A tag which is a descendant of the header element */
     text-decoration: none;
@@ -52,24 +53,23 @@ h1 {
     letter-spacing: 1px;
     color: #252525;
     float: left;
-    }
+}
+
 #menu {
     /*marker to remove bullet points*/
     list-style-type: none;
 }
+
 /* here we are spacing nav bar list items horizontally*/
 #menu>li {
     /*1em means 1 times the size of the current font*/
-        float: right; 
-        font-size: large;
-        margin-top:14px;
-        margin-left:14px;
-
-
-
+    float:right;
+    font-size: large;
+    margin-top: 14px;
+    margin-left: 14px;
+    padding: 0px;
+    border-width: 0px;
 }
-    
-    
 
 /* visual cue to show user where he is on the website*/
 .active {
@@ -93,5 +93,5 @@ Main {
 footer {
     background-color: lightblue;
     /*adds shadow effects around the footer element frame.*/
-    box-shadow: 0px 0px 2px #3a3a3a;
+    box-shadow: 1px 1px 2px #3a3a3a;
 }
