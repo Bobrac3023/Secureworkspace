@@ -56,7 +56,7 @@ h1 {
 #menu {
     /*marker to remove bullet points*/
     list-style-type: none;
-    float:right    
+    float:right;    
     position: inherit;
 }
 /* here we are spacing nav bar list items horizontally*/
