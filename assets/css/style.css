@@ -56,20 +56,13 @@ h1 {
 #menu {
     /*marker to remove bullet points*/
     list-style-type: none;
-    float:right;    
-    position: inherit;
 }
 /* here we are spacing nav bar list items horizontally*/
 #menu>li {
     /*1em means 1 times the size of the current font*/
-        font-size: small;
-        padding: 10px;
-        border-width: 1px;
-        margin: 5px;
-        margin-bottom: 1em;
-        float: right;
-        position:inherit
-         
+        float: right; 
+        font-size: large;
+        margin:8px
         
 }
     
