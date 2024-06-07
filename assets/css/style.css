@@ -55,27 +55,25 @@ h1 {
     float: left;
 }
 
-/* Making the Header Responsive*/
-#menu {
-    /*marker to remove bullet points*/
-    list-style-type: none;
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
-/* here we are spacing nav bar list items horizontally*/
-#menu>li {
-    /*1em means 1 times the size of the current font*/
-    float:right;
-    font-size: large;
-    margin-top: 14px;
-    margin-left: 14px;
-    padding: 0px;
-    border-width: 0px;
-}
-/* visual cue to show user where he is on the website*/
-.active {
-    border-bottom: 1px solid #3a3a3a
-}
-
-
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%;
+  }
+   
+  nav a {
+    text-decoration: none;
+        display: block;
+  }
+  
 
 
 
