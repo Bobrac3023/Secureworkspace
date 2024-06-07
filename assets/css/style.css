@@ -53,13 +53,13 @@ h1 {
     letter-spacing: 1px;
     color: #252525;
     float: left;
-    }
+}
 
+/* Making the Header Responsive*/
 #menu {
     /*marker to remove bullet points*/
     list-style-type: none;
 }
-
 /* here we are spacing nav bar list items horizontally*/
 #menu>li {
     /*1em means 1 times the size of the current font*/
@@ -70,7 +70,6 @@ h1 {
     padding: 0px;
     border-width: 0px;
 }
-
 /* visual cue to show user where he is on the website*/
 .active {
     border-bottom: 1px solid #3a3a3a
