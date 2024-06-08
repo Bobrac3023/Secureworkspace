@@ -37,10 +37,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items:end;
-    
-    
-
+    align-items: end;
 }
 
 h1 {
@@ -48,16 +45,14 @@ h1 {
     letter-spacing: 4px;
     color: black;
     padding-left: 2rem;
-    
-}
 
+}
 
 nav {
     /* adding flex properties to parent of line elements*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:center;
+    align-items: center;
     flex-direction: row-reverse;
 }
 
@@ -69,7 +64,7 @@ ul>li {
     padding: 2px;
     border-width: 0px;
     margin: 0px;
-    }
+}
 
 .center {
     position: absolute;
