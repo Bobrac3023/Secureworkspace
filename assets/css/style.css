@@ -19,7 +19,6 @@ header {
     background-color: #f0ffff;
     /* padding top,bottom and right left relative to font size of root element*/
     padding: 1rem 1rem;
-    position: fixed;
     width: 100%;
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
@@ -54,7 +53,7 @@ nav li {
     /* li is a block element,set as an inline block here ,to allow they to appear horizontally*/
     display: inline-block;
     margin-left: 2.5%;
-    }
+}
 
 nav a {
     text-decoration: none;
@@ -65,5 +64,12 @@ nav a {
 .active {
     border-bottom: 1px solid #3a3a3a
 }
+h2 {
+    position: relative;
+    display: inline-block;margin-top: 14px;
+    margin-left: 14px;
+    padding: 0px;
+    border-width: 0px;
 
-
+    
+}
