@@ -53,12 +53,16 @@ li{
 #heroimage{
     width: 100%;
     height: 800px;
-    background-image: url("../favicon/DODGER.png");
+    background-image: url("../favicon/DSC_6925\ \(1\).png");
     background-size: cover;
     border: 1px solid red;
   }
 
-/* For mobile phones: */
+  /* For mobiles */
+@media screen and (max-width: 320px) {
+          width: 100%;
+}
+/* For tablets */
 @media screen and (max-width: 768px) {
           width: 100%;
 }
