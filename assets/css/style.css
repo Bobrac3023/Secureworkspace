@@ -14,6 +14,11 @@
     box-sizing: border-box;
 }
 
+body {
+    /*change background color from default white*/
+    background-color:aliceblue;
+}
+
 header{
     /*making the position of the header fixed*/
     position: fixed;
@@ -31,4 +36,9 @@ header a{
 h1{
     /* add a space between the each word*/
     letter-spacing: 4px;
+    color: black;
+}
+li{
+    /*target the line items in unordered list to display horizontally*/
+    display: inline-block;
 }
