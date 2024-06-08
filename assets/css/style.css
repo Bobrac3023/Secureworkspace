@@ -41,6 +41,9 @@ h1{
 li{
     /*target the line items in unordered list to display horizontally*/
     display: inline-block;
-    /* make the line elements float right*/
-    float:right;
+    /* align the margin, border, padding and contents of line element */
+    font-size: 17px;
+    padding: 0px;
+    border-width: 0px;
+    margin: 8px;
 }
