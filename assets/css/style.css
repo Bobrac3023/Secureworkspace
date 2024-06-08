@@ -14,67 +14,21 @@
     box-sizing: border-box;
 }
 
-header {
-    /* using hex code for color Azure */
-    background-color: #f0ffff;
-    /* padding top,bottom and right left relative to font size of root element*/
-    padding: 1rem 1rem;
-    width: 100%;
-    /*adds shadow effects around the element header frame.*/
-    box-shadow: 2px 2px 2px #3a3a3a;
+header{
+    /*making the position of the header fixed*/
     position: fixed;
+    /*media query-relative width value*/
+    width:100%;
+    /*changing the background color of header element*/
+    background-color:bisque;
+    /* add a box shadow to seperate header from body element*/
+    box-shadow: 0 2px 2px #3a3a3a;
 }
-
-header a {
-    /*Remove Decorations applied to A tag which is a descendant of the header element */
+header a{
+    /*removed the underline from the header Element*/
     text-decoration: none;
 }
-
-/* Sans-serif Font for our header H1*/
-h1 {
-    font-family: 'Oswald', sans-serif;
-    /*Controls capitalization effects of an element's text*/
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #252525;
-    float: left;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    font-size: 1rem;
-    line-height: 40px;
-    height: 40px;
-    /* li is a block element,set as an inline block here ,to allow they to appear horizontally*/
-    display: inline-block;
-    margin-left: 2.5%;
-}
-
-nav a {
-    text-decoration: none;
-    display: block;
-}
-
-/* visual cue to show user where he is on the website*/
-.active {
-    border-bottom: 1px solid #3a3a3a
-}
-
-/*Main Content*/
-main {
-    /*Enable flex properties for child elements*/
-    display: flex;
-    flex-direction: column;
-}
-
-/* targetiing the section for background heroimage*/
-#heroimage {
-    object-fit: scale-down;
-
+h1{
+    /* add a space between the each word*/
+    letter-spacing: 4px;
 }
