@@ -37,13 +37,27 @@ h1{
     /* add a space between the each word*/
     letter-spacing: 4px;
     color: black;
+    padding-left: 2rem;
 }
 li{
     /*target the line items in unordered list to display horizontally*/
     display: inline-block;
     /* align the margin, border, padding and contents of line element */
     font-size: 17px;
-    padding: 0px;
+    padding: 2px;
     border-width: 0px;
     margin: 8px;
+    width:auto;
+}
+
+section {
+    width: 100%;
+    height: 800px;
+    background-image: url("../favicon/DODGER.png");
+    background-size: cover;
+    border: 1px solid red;
+  }
+@media screen and (max-width: 768px) {
+     /* For mobile phones: */
+     width: 100%;
 }
