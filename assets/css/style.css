@@ -42,7 +42,6 @@ header {
 header a {
     /*Remove Decorations applied to A tag which is a descendant of the header element */
     text-decoration: none;
-    /*color: inherit;  to check this later*/
 }
 
 /* Sans-serif Font for our header H1*/
