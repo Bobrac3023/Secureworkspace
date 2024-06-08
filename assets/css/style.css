@@ -14,15 +14,6 @@
     box-sizing: border-box;
 }
 
-/* General styles for the BODY element only. */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /*General colour styles for the body*/
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-}
 
 
 /* H1 Color */
@@ -75,18 +66,5 @@ nav a {
     display: block;
 }
 
-/* Main */
-Main {
-    background-color: bisque;
-    /*Flex to take up whole space*/
-    flex: 1 0 auto;
-}
 
-/* more space between h2 and h3 */
 
-/* footer */
-footer {
-    background-color: lightblue;
-    /*adds shadow effects around the footer element frame.*/
-    box-shadow: 1px 1px 2px #3a3a3a;
-}
