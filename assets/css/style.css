@@ -69,4 +69,7 @@ li{
 
 footer >p{
     display: inline-block;
+    padding: 6px;
+    border-width: 1px;
+    margin: 15px;
 }
