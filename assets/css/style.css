@@ -33,6 +33,14 @@ header {
 header a {
     /*removed the underline from the header Element*/
     text-decoration: none;
+    /*adding flex properties to parent of line elements*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:end;
+    
+    
+
 }
 
 h1 {
@@ -40,6 +48,17 @@ h1 {
     letter-spacing: 4px;
     color: black;
     padding-left: 2rem;
+    
+}
+
+
+nav {
+    /* adding flex properties to parent of line elements*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row-reverse;
 }
 
 ul>li {
@@ -50,16 +69,19 @@ ul>li {
     padding: 2px;
     border-width: 0px;
     margin: 0px;
-}
+    }
+
 .center {
     position: absolute;
     top: 40%;
     width: 100%;
     text-align: center;
     font-size: larger;
-  }
+}
+
 /* heroimage class created for background hero image*/
 #heroimage {
+    display: flex;
     width: 100%;
     height: 650px;
     background-image: url("../favicon/DSC_6925\ \(1\).png");
