@@ -87,17 +87,22 @@ ul>li {
 
 /* For mobiles */
 @media screen and (max-width: 320px) {
-    width: 100%;
+    width: 100px;
 }
 
 /* For tablets */
 @media screen and (max-width: 768px) {
-    width: 100%;
+    width: 100px
 }
+
+footer {
+    display: flex;
+    }
 
 footer>p {
     display: inline-block;
     padding: 6px;
     border-width: 1px;
     margin: 15px;
+    display: flex;
 }
