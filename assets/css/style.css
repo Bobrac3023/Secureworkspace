@@ -22,6 +22,7 @@ header {
     width: 100%;
     /*adds shadow effects around the element header frame.*/
     box-shadow: 2px 2px 2px #3a3a3a;
+    position: fixed;
 }
 
 header a {
@@ -64,12 +65,16 @@ nav a {
 .active {
     border-bottom: 1px solid #3a3a3a
 }
-h2 {
-    position: relative;
-    display: inline-block;margin-top: 14px;
-    margin-left: 14px;
-    padding: 0px;
-    border-width: 0px;
 
-    
+/*Main Content*/
+main {
+    /*Enable flex properties for child elements*/
+    display: flex;
+    flex-direction: column;
+}
+
+/* targetiing the section for background heroimage*/
+#heroimage {
+    object-fit: scale-down;
+
 }
