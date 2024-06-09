@@ -28,6 +28,7 @@ header {
     background-color: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px #3a3a3a;
+    z-index: 99;
 }
 
 header a {
@@ -113,18 +114,10 @@ ul>li {
     display: flex;
 }
 /* this section is for news page styling */
-div {
-    
-    /* display property with value "flex" to use flexbox propoerties for PARENT section */
-    
-
-
-}
 
 div {
-    background-color: orangered;
-    display: inline-block;
-    width:24.5%;
-    height: 650px;
-   
+    display:flex;
+    background-color:aliceblue;
+    height: 600px;
+
 }
