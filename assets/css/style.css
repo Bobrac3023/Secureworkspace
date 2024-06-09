@@ -130,8 +130,10 @@ ul>li {
     padding: 5px;
     border-width: 5px;
     margin: 30px;  
+    text-align: justify;
 }
 #header2style{
     font-size: 2rem;
     text-align: center;
+    text-decoration-line: underline;
 }
