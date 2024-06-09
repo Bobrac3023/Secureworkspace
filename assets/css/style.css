@@ -16,7 +16,7 @@
 
 body {
     /*change background color from default white*/
-    #background-color: aliceblue;
+    background-color: aliceblue;
     min-height: 100vh;
 }
 
@@ -29,7 +29,6 @@ header {
     background-color: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px #3a3a3a;
-
 }
 
 header a {
@@ -72,13 +71,14 @@ ul>li {
 
 /* For mobiles */
 @media screen and (min-width: 576px) {
-    width:fit-content;
+    width: fit-content;
 }
 
 /* For tablets and larger*/
 @media screen and (min-width: 768px) {
     width: fit-content;
 }
+
 /* heroimage class created for background hero image*/
 #heroimage {
     width: 100%;
@@ -87,14 +87,13 @@ ul>li {
     position: relative;
 }
 
-
 #footer {
     display: flex;
     box-shadow: 2px 0 2px #3a3a3a;
     background-color: bisque;
 }
 
-#footerp {
+.footerp {
     display: inline-block;
     padding: 6px;
     border-width: 1px;
@@ -139,7 +138,7 @@ ul>li {
 }
 
 #Imagesizing {
-    width: 70%;
-    height: 50;
+    width: 50%;
+    height: 50%;
     image-rendering: pixelated;
 }
