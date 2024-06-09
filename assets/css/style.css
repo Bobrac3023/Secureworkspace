@@ -29,7 +29,7 @@ header {
     background-color: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px #3a3a3a;
-    
+
 }
 
 header a {
@@ -100,16 +100,16 @@ ul>li {
 
 #footer {
     display: flex;
-    box-shadow: 2px 0 2px  #3a3a3a;
+    box-shadow: 2px 0 2px #3a3a3a;
     background-color: bisque;
-    }
+}
 
 #footerp {
     display: inline-block;
     padding: 6px;
     border-width: 1px;
     margin: 15px;
-    display: flex;
+    
 }
 
 #socialmedia {
@@ -119,27 +119,35 @@ ul>li {
 
 /* this section is for Information page styling */
 
-#Mainstyle{
+#Mainstyle {
     min-height: 100vh;
-}
+    }
 
 #divoutline {
-    display: inline;
-            
+    display:flex
+        
 }
 
 #information {
-        
     font-size: x-large;
     padding: 5px;
     border-width: 5px;
-    margin: 10px;  
-    }
-#header2style{
+    margin: 10px;
+}
+
+#header2style {
     font-size: 2rem;
     text-align: center;
     text-decoration-line: underline;
 }
-#listbeautify{
-    list-style-position:outside;
+
+#listbeautify {
+    list-style-position: outside;
 }
+#spanbeautify {
+    width: fit-content;
+}
+#Imagesizing{
+    width:50%
+    
+} 
