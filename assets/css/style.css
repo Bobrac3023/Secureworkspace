@@ -106,29 +106,26 @@ ul>li {
 }
 
 /* this section is for Information page styling */
-#Mainstyle {
-    min-height: 100vh;
-}
 
 .divoutline {
-    display: flex
+    box-sizing: border-box;
+    border: 5px solid slategrey;
+    height: 80vh;
+    width: 500px;
+    display: flex-inline;
+    gap: 10px;
 }
 
 .header2style {
-    font-size: 2rem;
     text-align: center;
-    text-decoration-line: underline;
+    flex-basis: 120px;
+    align-self: center;
 }
 
-#listbeautify {
-    padding: 2px;
-    border-width: 2px;
-    margin: 5px;
+.listbeautify {
+    align-self: center;
 }
 
-.spanbeautify {
-    width: fit-content;
-}
 
 .Imagesizing {
     width: 50%;
