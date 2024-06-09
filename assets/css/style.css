@@ -113,11 +113,19 @@ ul>li {
     /* Social Media Icons for footer*/
     display: flex;
 }
+
 /* this section is for news page styling */
 
 div {
-    display:flex;
-    background-color:aliceblue;
+    display: flex;
+    background-color: aliceblue;
     height: 600px;
+    
+}
 
+div>p {
+    padding: 12px;
+    border-width: 1px;
+    margin: 100px;
+    display: list-item;
 }
