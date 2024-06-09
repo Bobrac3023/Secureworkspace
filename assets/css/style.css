@@ -116,19 +116,29 @@ ul>li {
     gap: 10px;
 }
 
-.header2style {
+.header2style{
     text-align: center;
     flex-basis: 120px;
     align-self: center;
 }
 
-.listbeautify {
-    align-self: center;
+.listbeautify1 {
+    align-self:flex-start;
+    text-align:justify;
+}
+
+.listbeautify2 {
+    align-self:center;
+    text-align:justify;
+}
+.listbeautify3 {
+    align-self:flex-end;
+    text-align:justify;
 }
 
 
 .Imagesizing {
+    align-self: center;
     width: 50%;
-    height: 50%;
-    image-rendering: pixelated;
+    height:60%;
 }
