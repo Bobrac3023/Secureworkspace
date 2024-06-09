@@ -100,8 +100,9 @@ ul>li {
 
 #footer {
     display: flex;
-    z-index: 75;
-}
+    box-shadow: 2px 0 2px  #3a3a3a;
+    background-color: bisque;
+    }
 
 #footerp {
     display: inline-block;
@@ -118,8 +119,13 @@ ul>li {
 
 /* this section is for Information page styling */
 
+#Mainstyle{
+    min-height: 100vh;
+}
+
 #divoutline {
-        display: inline-block;     
+    display: inline;
+            
 }
 
 #information {
