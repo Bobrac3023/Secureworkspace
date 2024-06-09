@@ -21,7 +21,7 @@ body {
 }
 
 header {
-    /*making the position of the header fixed - disbaled #position: fixed;*/
+    /*making the position of the header fixed - disabled #position: fixed;*/
     z-index: 99;
     /*media query-relative width value*/
     width: 100%;
@@ -121,12 +121,17 @@ ul>li {
 
 
 #divoutline {
-        max-width: 70%;
-    display: inline-block;     
+        display: inline-block;     
 }
 
 #information {
-    position:relative;
-    font-size: large;
-    
+        
+    font-size: x-large;
+    padding: 5px;
+    border-width: 5px;
+    margin: 30px;  
+}
+#header2style{
+    font-size: 2rem;
+    text-align: center;
 }
