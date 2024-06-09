@@ -45,6 +45,7 @@ h1 {
     letter-spacing: 4px;
     color: black;
     padding-left: 2rem;
+    margin-top: 1rem;
 
 }
 
@@ -67,6 +68,7 @@ ul>li {
 }
 
 .center {
+    /* to poistion H2 heading in Main content */
     position: absolute;
     top: 40%;
     width: 100%;
@@ -80,7 +82,7 @@ ul>li {
     width: 100%;
     height: 650px;
     background-image: url("../favicon/DSC_6925\ \(1\).png");
-    background-size: cover;
+    background-size:contain;
     border: 1px solid red;
 }
 
@@ -97,7 +99,7 @@ ul>li {
 
 footer {
     display: flex;
-    }
+        }
 
 footer>p {
     display: inline-block;
@@ -113,9 +115,7 @@ footer>p {
 }
 
 section {
-    width: 250px;
-    height: 200px;
-    #border: 5px solid slategrey;
+    
     /* FLEX PARENT PROPERTIES */
     display: flex; 
     flex-wrap: wrap;
