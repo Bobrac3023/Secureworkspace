@@ -16,7 +16,7 @@
 
 body {
     /*change background color from default white*/
-    background-color: aliceblue;
+    #background-color: aliceblue;
 }
 
 header {
@@ -106,3 +106,9 @@ footer>p {
     margin: 15px;
     display: flex;
 }
+#socialmedia{
+    /* Social Media Icons for footer*/
+    display: flex;
+
+}
+
