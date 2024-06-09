@@ -87,7 +87,7 @@ ul>li {
     position: relative;
 }
 
-#footer {
+.footer {
     display: flex;
     box-shadow: 2px 0 2px #3a3a3a;
     background-color: bisque;
@@ -114,14 +114,7 @@ ul>li {
     display: flex
 }
 
-.information {
-    font-size: x-large;
-    padding: 5px;
-    border-width: 5px;
-    margin: 10px;
-}
-
-#header2style {
+.header2style {
     font-size: 2rem;
     text-align: center;
     text-decoration-line: underline;
@@ -137,7 +130,7 @@ ul>li {
     width: fit-content;
 }
 
-#Imagesizing {
+.Imagesizing {
     width: 50%;
     height: 50%;
     image-rendering: pixelated;
