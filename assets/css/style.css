@@ -142,12 +142,16 @@ ul>li {
 }
 
 #listbeautify {
-    list-style-position: outside;
+    padding: 2px;
+    border-width: 2px;
+    margin: 5px;
 }
 #spanbeautify {
     width: fit-content;
 }
 #Imagesizing{
-    width:50%
+    width:70%;
+    height: 50;
+    image-rendering: pixelated;
     
 } 
