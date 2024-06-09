@@ -133,7 +133,8 @@ ul>li {
 }
 .listbeautify3 {
     align-self:flex-end;
-    text-align:justify;
+    text-align:left;
+    padding-right: 5rem;
 }
 
 
