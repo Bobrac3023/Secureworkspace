@@ -116,9 +116,7 @@ ul>li {
     display: flex;
 }
 
-/* this section is for news page styling */
-
-
+/* this section is for Information page styling */
 
 #divoutline {
         display: inline-block;     
@@ -129,11 +127,13 @@ ul>li {
     font-size: x-large;
     padding: 5px;
     border-width: 5px;
-    margin: 30px;  
-    text-align: justify;
-}
+    margin: 10px;  
+    }
 #header2style{
     font-size: 2rem;
     text-align: center;
     text-decoration-line: underline;
+}
+#listbeautify{
+    list-style-position:outside;
 }
