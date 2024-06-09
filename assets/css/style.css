@@ -96,11 +96,11 @@ ul>li {
     width: 100px;
 }
 
-footer {
+#footer {
     display: flex;
 }
 
-footer>p {
+#footerp {
     display: inline-block;
     padding: 6px;
     border-width: 1px;
@@ -112,24 +112,19 @@ footer>p {
     /* Social Media Icons for footer*/
     display: flex;
 }
+/* this section is for news page styling */
+div {
+    
+    /* display property with value "flex" to use flexbox propoerties for PARENT section */
+    
 
-section {
-
-    /* FLEX PARENT PROPERTIES */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    #flex-direction: row-reverse;
-    position: inherit;
 
 }
 
 div {
     background-color: orangered;
-    text-align: center;
-    font-size: 3rem;
-    width: 100px;
-    margin: 5px;
-    #display: inline-block;
+    display: inline-block;
+    width:24.5%;
+    height: 650px;
+   
 }
