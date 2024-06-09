@@ -17,18 +17,19 @@
 body {
     /*change background color from default white*/
     #background-color: aliceblue;
+    min-height: 100vh;
 }
 
 header {
-    /*making the position of the header fixed*/
-    position: fixed;
+    /*making the position of the header fixed - disbaled #position: fixed;*/
+    z-index: 99;
     /*media query-relative width value*/
     width: 100%;
     /*changing the background color of header element*/
     background-color: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px #3a3a3a;
-    z-index: 99;
+    
 }
 
 header a {
@@ -117,11 +118,15 @@ ul>li {
 
 /* this section is for news page styling */
 
+
+
 #divoutline {
-    height: 600px;         
+        max-width: 70%;
+    display: inline-block;     
 }
 
 #information {
+    position:relative;
     font-size: large;
-    display: inline-block;
+    
 }
