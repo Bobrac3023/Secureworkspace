@@ -68,7 +68,7 @@ ul>li {
 }
 
 .center {
-    /* to poistion H2 heading in Main content */
+    /* to position H2 heading in Main content */
     position: absolute;
     top: 40%;
     width: 100%;
@@ -82,10 +82,9 @@ ul>li {
     width: 100%;
     height: 650px;
     background-image: url("../favicon/DSC_6925\ \(1\).png");
-    background-size:contain;
+    background-size: contain;
     border: 1px solid red;
 }
-
 
 /* For mobiles */
 @media screen and (max-width: 320px) {
@@ -94,12 +93,12 @@ ul>li {
 
 /* For tablets */
 @media screen and (max-width: 768px) {
-    width: 100px
+    width: 100px;
 }
 
 footer {
     display: flex;
-        }
+}
 
 footer>p {
     display: inline-block;
@@ -108,22 +107,22 @@ footer>p {
     margin: 15px;
     display: flex;
 }
-#socialmedia{
+
+#socialmedia {
     /* Social Media Icons for footer*/
     display: flex;
-
 }
 
 section {
-    
+
     /* FLEX PARENT PROPERTIES */
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    #flex-direction:row-reverse;
-    position:inherit;
-    
+    #flex-direction: row-reverse;
+    position: inherit;
+
 }
 
 div {
