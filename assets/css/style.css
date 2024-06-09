@@ -110,11 +110,11 @@ ul>li {
     min-height: 100vh;
 }
 
-#divoutline {
+.divoutline {
     display: flex
 }
 
-#information {
+.information {
     font-size: x-large;
     padding: 5px;
     border-width: 5px;
@@ -133,7 +133,7 @@ ul>li {
     margin: 5px;
 }
 
-#spanbeautify {
+.spanbeautify {
     width: fit-content;
 }
 
