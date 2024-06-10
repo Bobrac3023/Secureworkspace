@@ -155,7 +155,15 @@ ul>li {
 }
 /* This section is for signup page styling*/
 .formdivstyle {
+#box-sizing: border-box;
 display: flex;
-flex-direction:row;
+#flex-direction:column;
+#align-items: flex-start;
+#border: 5px solid slategrey;
+}
 
+.parastyling{
+    display:flex;
+    align-self: center;
+    justify-content:center;
 }
