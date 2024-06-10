@@ -156,5 +156,6 @@ ul>li {
 /* This section is for signup page styling*/
 .formdivstyle {
 display: flex;
-flex-direction: column;
+flex-direction:row;
+
 }
