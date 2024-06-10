@@ -29,7 +29,7 @@ header {
     background-color: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px #3a3a3a;
-}
+    }
 
 header a {
     /*removed the underline from the header Element*/
@@ -56,7 +56,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row-reverse;
-}
+    }
 
 ul>li {
     /*target the line items in unordered list to display horizontally*/
