@@ -100,7 +100,7 @@ ul>li {
     margin: 15px;
 }
 
-#socialmedia {
+.socialmedia {
     /* Social Media Icons for footer*/
     display: flex;
 }
