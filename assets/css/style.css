@@ -26,7 +26,7 @@ header {
     /*media query-relative width value*/
     width: 100%;
     /*changing the background color of header element*/
-    background:bisque;
+    background: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px black;
 }
@@ -62,8 +62,8 @@ h1 {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color:brown;
-    font:bolder;
+    color: brown;
+    font: bolder;
 }
 
 .navigation a:hover {
@@ -83,17 +83,16 @@ h1 {
     box-shadow: 3px 0 3px #3a3a3a;
     background-color: bisque;
     flex-direction: row;
-    justify-content: space-evenly;
-    
-}
+    justify-content: space-around;
 
+}
 .footerp1 {
     display: flex;
     padding: 6px;
     border-width: 1px;
     margin: 10px;
-    color:brown;
-    font:bolder;
+    color: brown;
+    font: bolder;
 }
 
 .footerp2 {
@@ -101,16 +100,16 @@ h1 {
     padding: 6px;
     border-width: 1px;
     margin: 10px;
-    color:brown;
-    font:bolder;
+    color: brown;
+    font: bolder;
 }
 
 
-    
-    
-    
-   
-    
+
+
+
+
+
 
 }
 
