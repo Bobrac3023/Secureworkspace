@@ -89,20 +89,29 @@ ul>li {
 
 .footer {
     display: flex;
-    box-shadow: 2px 0 2px #3a3a3a;
+    box-shadow: 3px 0 3px #3a3a3a;
     background-color: bisque;
+    flex-direction:row;
+    justify-content: space-evenly;
 }
 
-.footerp {
-    display: inline-block;
+.footerp1 {
+    display:flex;
     padding: 6px;
     border-width: 1px;
-    margin: 15px;
+    margin: 10px;
 }
-
+.footerp2 {
+    display:flex;
+    padding: 6px;
+    border-width: 1px;
+    margin: 10px;
+}
 .socialmedia {
     /* Social Media Icons for footer*/
     display: flex;
+    align-items: end;
+    
 }
 
 /* this section is for Information page styling */
@@ -136,7 +145,6 @@ ul>li {
     text-align:left;
     padding-right: 5rem;
 }
-
 
 .Imagesizing {
     align-self: center;
