@@ -29,6 +29,7 @@ header {
     background: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px black;
+    
 }
 
 header a {
@@ -86,6 +87,7 @@ h1 {
     justify-content: space-around;
 
 }
+
 .footerp1 {
     display: flex;
     padding: 6px;
@@ -116,45 +118,38 @@ h1 {
 /* this section is for Information page styling */
 
 .mainstyling {
-    box-sizing: border-box;
-    border: 5px solid slategrey;
-    display: flex;
-    #height: 80vh;
-    #width: 100%;
-    #gap: 10px;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-grow: 1;
-    align-items: stretch;
+    display:flex;
+    flex-direction:row;
+    
+    
 }
-
 .header2style {
+    display: flex;
     text-align: center;
-    flex-basis: 120px;
-    align-self: center;
-}
+        }
 
 .listbeautify1 {
-    align-self: flex-start;
-    text-align: justify;
+    display: flex;
+    /*This establishes the main-axis, thus defining the direction flex items are placed*/
+    flex-direction:column
+    
 }
 
 .listbeautify2 {
-    align-self: center;
-    text-align: justify;
+    display: flex;
+    /*This establishes the main-axis, thus defining the direction flex items are placed*/
+    flex-direction:column
+    
 }
 
 .listbeautify3 {
-    align-self: flex-end;
-    text-align: left;
-    padding-right: 5rem;
+    display: flex;
+    /*This establishes the main-axis, thus defining the direction flex items are placed*/
+    flex-direction:column
+
 }
 
-.Imagesizing {
-    align-self: center;
-    width: 50%;
-    height: 60%;
-}
+
 
 /* This section is for signup page styling*/
 .formdivstyle {
