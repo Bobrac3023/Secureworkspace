@@ -119,10 +119,13 @@ ul>li {
 .mainstyling{
     box-sizing: border-box;
     border: 5px solid slategrey;
-    height: 80vh;
-    width: 100%;
     display: flex;
-    gap: 10px;
+    #height: 80vh;
+    #width: 100%;
+    #gap: 10px;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-grow: 1;
 }
 
 .header2style{
@@ -130,12 +133,10 @@ ul>li {
     flex-basis: 120px;
     align-self: center;
 }
-
 .listbeautify1 {
     align-self:flex-start;
     text-align:justify;
 }
-
 .listbeautify2 {
     align-self:center;
     text-align:justify;
