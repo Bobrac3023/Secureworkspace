@@ -201,7 +201,24 @@ h1 {
 
     /* This section is for Information Page styling */
 
-    .mainstyling {}
+    section{
+display:flex;
+justify-content: space-around;
+
+    }
+    .mainstyling1 {
+        border-style: solid;
+background-color: aqua;
+    }
+    .mainstyling2 {
+        border-style: solid;
+background-color: aqua;
+    }
+
+    .mainstyling3 {
+        border-style: solid;
+background-color:cornflowerblue
+    }
 
     .header2style {
         font-family:'Courier New', Courier, monospace;
@@ -210,8 +227,6 @@ h1 {
 
     .listbeautify {
         display: block;
-       
-
     }
 
     .listbeautify li {
@@ -220,7 +235,7 @@ h1 {
         padding: 1rem;
         color: black;
         font-family: sans-serif;
-        text-align: center;
+        
 
     }
 
