@@ -21,6 +21,7 @@ body {
     font-family: sans-serif;
 }
 
+
 header {
     /*making the position of the header fixed - disabled #position: fixed;*/
     z-index: 99;
@@ -192,33 +193,36 @@ h1 {
             display: flex;
         }
 
-        /* This Section is for Gallery Page Styling  */
-        .gallerymasonry {
-            column-count: 4;
+        /* This section is for Information Page styling */
+
+        .maininformation {
+            min-height: 100vh;
         }
 
-    }
+        section {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            align-items: stretch;
 
-    /* This section is for Information Page styling */
+        }
 
-    section {
-        display: flex;
-        justify-content: space-around;
-        align-items: stretch;
+        .mainstyling1 {
+            background-color: aqua;
+        }
 
-    }
+        .mainstyling2 {
+            background-color: cornflowerblue;
+        }
 
-    .mainstyling1 {
-        background-color: aqua;
-    }
+        .mainstyling3 {
+            background-color: aqua;
+        }
 
-    .mainstyling2 {
-        background-color: cornflowerblue;
-    }
-
-    .mainstyling3 {
-        background-color: aqua;
-    }
         .mainstyling4 {
             background-color: cornflowerblue;
         }
@@ -238,21 +242,32 @@ h1 {
             padding: 1rem;
             color: black;
             font-family: sans-serif;
-
-
         }
 
-        /* This Section is for Contact Us Page Styling*/
-        .formdivstyle {
-            /* this is the parent flex container*/
-            display: flex;
-            /* this is a parent property to have all children in a row LTR*/
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 10px;
+        /* This Section is for Gallery Page Styling  */
+        .gallerymasonry {
+            column-count: 4;
         }
 
-        .parastyling {
-            display: flex;
-        }
+    }
+
+
+    /* This Section is for Contact Us Page Styling*/
+
+    .maincontact {
+        min-height: 100vh;
+    }
+
+    .formdivstyle {
+        /* this is the parent flex container*/
+        display: flex;
+        /* this is a parent property to have all children in a row LTR*/
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .parastyling {
+        display: flex;
+    }
