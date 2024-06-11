@@ -62,9 +62,9 @@
                 <h2>Tell us something about yourself</h2>
                 <form>
                     <label for="fname">First name:</label><br>
-                    <input id="fname" type="text"><br>
+                    <input id="fname" type="text" name="fname" placeholder="first_name"><br>
                     <label for="lname">Last name:</label><br>
-                    <input id="lname" type="text"><br>
+                    <input id="lname" type="text" name="lname" placeholder="last_name"><br>
                     <label for="birthday">Birthday:</label><br>
                     <input type="date" id="birthday" name="birthday"><br>
                     <label for="email">Enter your example.com email:</label><br>
@@ -80,11 +80,12 @@
                 <form>
 
                     <label for="avatar">Upload an image( png or jpeg only)</label><br>
-                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br>
-                    <label for="file">File</label><br>
-                    <input id="file" type="pdf">br
-                    <label for="image">Image</label><br>
-                    <label for="url">URL</lable><br>
+                    <input type="image" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br>
+
+                    <label for="homepage">Add your homepage:</label><br>
+                    <input type="url" id="homepage" name="homepage"><br>
+                    <input type="submit">
+                    <input type="reset" value="Reset">
                 </form>
             </div>
             <div>
@@ -96,7 +97,7 @@
                     <label for="vehicle2"> I will use public transport </label><br>
                     <input type="checkbox" id="vehicle3" name="vehicle3" value="Rented Vehicle">
                     <label for="vehicle3"> I will rent a vehicle </label>
-                  </form>
+                </form>
             </div>
 
             <div>
