@@ -58,24 +58,45 @@
     <main class="maincontact">
         <section>
             <!--This is the main content for this page-->
-            <div class="formdivstyle">
-                <form class="formdivstyle">
-                    <label for="name">Name</label>
-                    <input id="name" type="text" />
-                    <label for="datetime-local">datetime-local</label>
-                    <input type="datetime-local" />
-                    <input type="radio" />
-                    <input type="button/">
-                    <input type="color" />
-                    <input type="file" />
+            <div>
+                <h2>Tell us something about yourself</h2>
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input id="fname" type="text"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input id="lname" type="text"><br>
+                    <label for="birthday">Birthday:</label><br>
+                    <input type="date" id="birthday" name="birthday"><br>
+                    <label for="email">Enter your example.com email:</label><br>
+                    <input type="email" id="email" pattern=".+@example\.com" size="30" required /><br>
+                    <input type="submit">
+                    <input type="reset" value="Reset">
+
+
                 </form>
             </div>
-            <div class="formdivstyle">
-                <p class="parastyling"> Do you have something to share ! - Please upload below</p>
+            <div>
+                <h2>Do you have something to share ! - Please upload below</h2>
                 <form>
-                    <label for="file">Upload File</label>
-                    <input type="file" />
+
+                    <label for="avatar">Upload an image( png or jpeg only)</label><br>
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br>
+                    <label for="file">File</label><br>
+                    <input id="file" type="pdf">br
+                    <label for="image">Image</label><br>
+                    <label for="url">URL</lable><br>
                 </form>
+            </div>
+            <div>
+                <h2> How do you plan to Travel </h2>
+                <form>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Own Transport">
+                    <label for="vehicle1"> I will use my own transport </label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="public transport ">
+                    <label for="vehicle2"> I will use public transport </label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Rented Vehicle">
+                    <label for="vehicle3"> I will rent a vehicle </label>
+                  </form>
             </div>
 
             <div>
