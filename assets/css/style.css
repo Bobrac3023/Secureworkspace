@@ -194,12 +194,17 @@ h1 {
         }
 
         /* This section is for Information Page styling */
+        .startheader2{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-size: xx-large;
+        }
 
         .maininformation {
             min-height: 100vh;
         }
 
-        section {
+        .section1 {
             display: flex;
             justify-content: space-evenly;
             gap: 10px;
@@ -272,5 +277,4 @@ h1 {
     }
 
     .parastyling {
-        display: flex;
-    }
+        display: flex;}
