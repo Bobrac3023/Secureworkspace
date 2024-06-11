@@ -201,27 +201,30 @@ h1 {
 
     /* This section is for Information Page styling */
 
-    section{
-display:flex;
-justify-content: space-around;
+    section {
+        display: flex;
+        justify-content: space-around;
 
     }
+
     .mainstyling1 {
         border-style: solid;
-background-color: aqua;
+        background-color: aqua;
     }
+
     .mainstyling2 {
         border-style: solid;
-background-color: aqua;
+        background-color: aqua;
     }
 
     .mainstyling3 {
         border-style: solid;
-background-color:cornflowerblue
+        background-color: cornflowerblue;
+        
     }
 
     .header2style {
-        font-family:'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
         text-align: center;
     }
 
@@ -235,7 +238,7 @@ background-color:cornflowerblue
         padding: 1rem;
         color: black;
         font-family: sans-serif;
-        
+
 
     }
 
