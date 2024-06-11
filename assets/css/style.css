@@ -194,14 +194,38 @@ h1 {
         }
 
         /* This section is for Information Page styling */
-        .startheader2{
+        .startheader2 {
             font-family: 'Courier New', Courier, monospace;
             text-align: center;
-            font-size: xx-large;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+
+        .openpara {
+            text-align: center;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: justify;
+
+        }
+
+        .endheader2 {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 25px;
+            margin-bottom: 35px;
+            color: blue;
+
         }
 
         .maininformation {
-            min-height: 100vh;
+            min-height:  90vh;
+            background-color:lightyellow;
         }
 
         .section1 {
@@ -248,7 +272,8 @@ h1 {
             color: black;
             font-family: sans-serif;
         }
-        .listurl{
+
+        .listurl {
             list-style: url(https://www.asiahighlights.com/india/taj-mahal-best-time-to-visit);
         }
 
@@ -277,4 +302,5 @@ h1 {
     }
 
     .parastyling {
-        display: flex;}
+        display: flex;
+    }
