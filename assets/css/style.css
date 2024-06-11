@@ -110,6 +110,7 @@ h1 {
     color: brown;
     font: bolder;
 }
+
 .footer {
     display: flex;
     box-shadow: 3px 0 3px #3a3a3a;
@@ -121,6 +122,7 @@ h1 {
 .footernavigation a:hover {
     background: white;
 }
+
 .footerp1 {
     display: flex;
     padding: 6px;
@@ -190,38 +192,39 @@ h1 {
             display: flex;
         }
 
-    /* This Section is for Gallery Page Styling  */
-    .gallerymasonry {
-        column-count: 4;
+        /* This Section is for Gallery Page Styling  */
+        .gallerymasonry {
+            column-count: 4;
+        }
+
     }
 
-}
+    /* This section is for Information Page styling */
 
-/* This section is for Information Page styling */
+    .mainstyling {}
 
-.mainstyling {
-    display: flex;
-}
+    .header2style {
+        font-family:'Courier New', Courier, monospace;
+        text-align: center;
+    }
 
-.header2style {
-    display: flex;
-}
+    .listbeautify {
+        display: block;
+       
 
-.listbeautify1 {
-    display: flex;
-    /*This establishes the main-axis, thus defining the direction flex items are placed*/
-}
+    }
 
-.listbeautify2 {
-    display: flex;
-    /*This establishes the main-axis, thus defining the direction flex items are placed*/}
+    .listbeautify li {
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+        color: black;
+        font-family: sans-serif;
+        text-align: center;
 
-    .listbeautify3 {
-        display: flex;
-        /*This establishes the main-axis, thus defining the direction flex items are placed*/
+    }
 
-    
-/* This Section is for Signup Page Styling*/
+    /* This Section is for Contact Us Page Styling*/
     .formdivstyle {
         /* this is the parent flex container*/
         display: flex;
@@ -230,12 +233,8 @@ h1 {
         justify-content: flex-start;
         align-items: flex-start;
         gap: 10px;
-        #border: 5px solid slategrey;
-        #box-sizing: border-box;
     }
 
     .parastyling {
         display: flex;
-        #align-self: center;
-        #justify-content: center;
     }
