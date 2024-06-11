@@ -50,7 +50,7 @@ h1 {
     margin-top: 1rem;
 }
 
-.navigation {
+.headernavigation {
     /* adding flex properties to parent of line elements*/
     display: flex;
     flex-flow: row wrap;
@@ -59,7 +59,7 @@ h1 {
     margin: 0;
 }
 
-.navigation a {
+.headernavigation a {
     text-decoration: none;
     display: block;
     padding: 1em;
@@ -67,7 +67,7 @@ h1 {
     font: bolder;
 }
 
-.navigation a:hover {
+.headernavigation a:hover {
     background: white;
 }
 
@@ -92,6 +92,15 @@ h1 {
     line-height: 0;
 }
 
+
+.footernavigation {
+    /* adding flex properties to parent of line elements*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
 .footer {
     display: flex;
     box-shadow: 3px 0 3px #3a3a3a;
@@ -130,6 +139,21 @@ h1 {
 
     /* Media Query for tablets and Larger devices (768 px and up) */
     @media screen and (min-width:768px) {
+        h1 {
+            padding-left: 2rem;
+            margin-top: 2rem;
+        }
+
+        nav {
+            display: block;
+            position: relative;
+        }
+
+        .navigation {
+            /* adding flex properties to parent of line elements*/
+            display: flex;
+        }
+
         .gallerymasonry {
             column-count: 3;
         }
@@ -138,61 +162,83 @@ h1 {
 
     /* Media Query for Laptops and Desktops (992 px and up) */
     @media screen and (min-width:992px) {
-        .gallerymasonry {
-            column-count: 4;
+
+        h1 {
+            padding-left: 2rem;
+            margin-top: 2rem;
         }
 
+        nav {
+            display: block;
+            position: relative;
+        }
+
+        .navigation {
+            /* adding flex properties to parent of line elements*/
+            display: flex;
+        }
+
+        /*Main Content */
+
+
     }
- 
-    /* this section is for Information page styling */
 
-    .mainstyling {
-        display: flex;
-
-
+    /* Gallery Page */
+    .gallerymasonry {
+        column-count: 4;
     }
 
-    .header2style {
-        display: flex;
+}
+
+/* this section is for Information page styling */
+
+.mainstyling {
+    display: flex;
 
 
-    }
+}
 
-    .listbeautify1 {
+.header2style {
+    display: flex;
+
+
+}
+
+.listbeautify1 {
+    display: flex;
+    /*This establishes the main-axis, thus defining the direction flex items are placed*/
+
+
+}
+
+.listbeautify2 {
+    display: flex;
+    /*This establishes the main-axis, thus defining the direction flex items are placed*/
+
+
+
+    .listbeautify3 {
         display: flex;
         /*This establishes the main-axis, thus defining the direction flex items are placed*/
 
 
     }
 
-    .listbeautify2 {
+    /* This section is for signup page styling*/
+    .formdivstyle {
+        /* this is the parent flex container*/
         display: flex;
-        /*This establishes the main-axis, thus defining the direction flex items are placed*/
+        /* this is a parent property to have all children in a row LTR*/
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        #border: 5px solid slategrey;
+        #box-sizing: border-box;
+    }
 
-
-
-        .listbeautify3 {
-            display: flex;
-            /*This establishes the main-axis, thus defining the direction flex items are placed*/
-
-
-        }
-
-        /* This section is for signup page styling*/
-        .formdivstyle {
-            /* this is the parent flex container*/
-            display: flex;
-            /* this is a parent property to have all children in a row LTR*/
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 10px;
-            #border: 5px solid slategrey;
-            #box-sizing: border-box;
-        }
-
-        .parastyling {
-            display: flex;
-            #align-self: center;
-            #justify-content: center;
-        }
+    .parastyling {
+        display: flex;
+        #align-self: center;
+        #justify-content: center;
+    }
