@@ -174,8 +174,8 @@ h1 {
 }
 
 .maininformation {
-    min-height:  90vh;
-    background-color:lightyellow;
+    min-height: 90vh;
+    background-color: lightyellow;
 }
 
 .section1 {
@@ -223,9 +223,6 @@ h1 {
     font-family: sans-serif;
 }
 
-.listurl {
-    list-style: url(https://www.asiahighlights.com/india/taj-mahal-best-time-to-visit);
-}
 
 /* Media Query for Large or Landscape Phones (576 px and up) */
 @media screen and (min-width: 576px) {
@@ -278,28 +275,16 @@ h1 {
             display: flex;
         }
 
-        
-/* This Section is for Gallery Page Styling  */
-.gallerymasonry {
-    column-count: 4;
-}
 
-/* This Section is for Contact Us Page Styling*/
+        /* This Section is for Gallery Page Styling  */
+        .gallerymasonry {
+            column-count: 4;
+        }
+    }
 
-.maincontact {
-min-height: 100vh;
-}
+    /* This Section is for Contact Us Page Styling*/
 
-.formdivstyle {
-/* this is the parent flex container*/
-display: flex;
-/* this is a parent property to have all children in a row LTR*/
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-gap: 10px;
-}
-
-.parastyling {
-display: flex;
-}
+    .h2headercontact {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: ;
+    }
