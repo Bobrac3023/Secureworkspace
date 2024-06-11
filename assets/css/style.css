@@ -92,7 +92,7 @@ h1 {
     line-height: 0;
 }
 
-
+/* This section is for FOOTER STYLING */
 .footernavigation {
     /* adding flex properties to parent of line elements*/
     display: flex;
@@ -100,6 +100,15 @@ h1 {
     justify-content: flex-end;
     list-style: none;
     margin: 0;
+}
+
+
+.footernavigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: brown;
+    font: bolder;
 }
 .footer {
     display: flex;
@@ -109,6 +118,9 @@ h1 {
     justify-content: space-around;
 }
 
+.footernavigation a:hover {
+    background: white;
+}
 .footerp1 {
     display: flex;
     padding: 6px;
@@ -137,7 +149,7 @@ h1 {
 
     }
 
-    /* Media Query for tablets and Larger devices (768 px and up) */
+    /* Media Query for Tablets and Larger Devices (768 px and up) */
     @media screen and (min-width:768px) {
         h1 {
             padding-left: 2rem;
@@ -178,53 +190,38 @@ h1 {
             display: flex;
         }
 
-        /*Main Content */
-
-
-    }
-
-    /* Gallery Page */
+    /* This Section is for Gallery Page Styling  */
     .gallerymasonry {
         column-count: 4;
     }
 
 }
 
-/* this section is for Information page styling */
+/* This section is for Information Page styling */
 
 .mainstyling {
     display: flex;
-
-
 }
 
 .header2style {
     display: flex;
-
-
 }
 
 .listbeautify1 {
     display: flex;
     /*This establishes the main-axis, thus defining the direction flex items are placed*/
-
-
 }
 
 .listbeautify2 {
     display: flex;
-    /*This establishes the main-axis, thus defining the direction flex items are placed*/
-
-
+    /*This establishes the main-axis, thus defining the direction flex items are placed*/}
 
     .listbeautify3 {
         display: flex;
         /*This establishes the main-axis, thus defining the direction flex items are placed*/
 
-
-    }
-
-    /* This section is for signup page styling*/
+    
+/* This Section is for Signup Page Styling*/
     .formdivstyle {
         /* this is the parent flex container*/
         display: flex;
