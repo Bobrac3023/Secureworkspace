@@ -204,55 +204,55 @@ h1 {
     section {
         display: flex;
         justify-content: space-around;
+        align-items: stretch;
 
     }
 
     .mainstyling1 {
-        border-style: solid;
         background-color: aqua;
     }
 
     .mainstyling2 {
-        border-style: solid;
-        background-color: aqua;
+        background-color: cornflowerblue;
     }
 
     .mainstyling3 {
-        border-style: solid;
-        background-color: cornflowerblue;
-        
+        background-color: aqua;
     }
+        .mainstyling4 {
+            background-color: cornflowerblue;
+        }
 
-    .header2style {
-        font-family: 'Courier New', Courier, monospace;
-        text-align: center;
-    }
+        .header2style {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
 
-    .listbeautify {
-        display: block;
-    }
+        .listbeautify {
+            display: block;
+        }
 
-    .listbeautify li {
-        text-decoration: none;
-        display: block;
-        padding: 1rem;
-        color: black;
-        font-family: sans-serif;
+        .listbeautify li {
+            text-decoration: none;
+            display: block;
+            padding: 1rem;
+            color: black;
+            font-family: sans-serif;
 
 
-    }
+        }
 
-    /* This Section is for Contact Us Page Styling*/
-    .formdivstyle {
-        /* this is the parent flex container*/
-        display: flex;
-        /* this is a parent property to have all children in a row LTR*/
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 10px;
-    }
+        /* This Section is for Contact Us Page Styling*/
+        .formdivstyle {
+            /* this is the parent flex container*/
+            display: flex;
+            /* this is a parent property to have all children in a row LTR*/
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
-    .parastyling {
-        display: flex;
-    }
+        .parastyling {
+            display: flex;
+        }
