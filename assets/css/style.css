@@ -243,6 +243,9 @@ h1 {
             color: black;
             font-family: sans-serif;
         }
+        .listurl{
+            list-style: url(https://www.asiahighlights.com/india/taj-mahal-best-time-to-visit);
+        }
 
         /* This Section is for Gallery Page Styling  */
         .gallerymasonry {
