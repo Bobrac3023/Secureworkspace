@@ -18,6 +18,7 @@ body {
     /*change background color from default white*/
     background-color: aliceblue;
     min-height: 100vh;
+    font-family: sans-serif;
 }
 
 header {
@@ -29,7 +30,6 @@ header {
     background: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px black;
-    
 }
 
 header a {
@@ -75,7 +75,7 @@ h1 {
 #heroimage {
     width: 100%;
     height: 700px;
-    background: url("../favicon/DSC_6925\ \(1\).png") no-repeat center center/cover;
+    background: url("../favicon/Taj\ Mahal\ Long\ Shot\ \ 1.jpg") no-repeat center center/cover;
     position: relative;
 }
 
@@ -85,7 +85,6 @@ h1 {
     background-color: bisque;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 .footerp1 {
@@ -106,50 +105,39 @@ h1 {
     font: bolder;
 }
 
-
-
-
-
-
-
-
-}
-
 /* this section is for Information page styling */
 
 .mainstyling {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    
+
+}
+
+.header2style {
+    display: flex;  
     
     
 }
-.header2style {
-    display: flex;
-    text-align: center;
-        }
 
 .listbeautify1 {
     display: flex;
     /*This establishes the main-axis, thus defining the direction flex items are placed*/
-    flex-direction:column
+    
     
 }
 
 .listbeautify2 {
     display: flex;
     /*This establishes the main-axis, thus defining the direction flex items are placed*/
-    flex-direction:column
-    
-}
+   
+   
 
 .listbeautify3 {
     display: flex;
     /*This establishes the main-axis, thus defining the direction flex items are placed*/
-    flex-direction:column
-
+    
+    
 }
-
-
 
 /* This section is for signup page styling*/
 .formdivstyle {
