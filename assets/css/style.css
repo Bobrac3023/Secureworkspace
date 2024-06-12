@@ -266,6 +266,7 @@ main {
     color: black;
     font-family: sans-serif;
 }
+
 /* This Section is for Contact Us Page Styling*/
 
 .h2headercontact {
@@ -273,22 +274,39 @@ main {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
-    text-align:left;
-    
+    text-align: left;
+
 }
 
 .formstyler {
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-basis: 200px;
-    text-align:left;
-    padding:20px
+    text-align: left;
+    padding: 20px
 }
 
 .formstyler a {
-    #display:block
+    #display: block
 }
 
+/* Media Query for Large or Landscape Phones (576 px and up) */
+@media screen and (min-width: 576px) {
+
+    /* display content in columns based on count specified*/
+    .gallerymasonry {
+        column-count: 2;
+        column-gap: 0;
+
+    }
+}
+
+/* Media Query for Tablets and Larger Devices (768 px and up) */
+@media screen and (min-width:768px) {
+    .gallerymasonry {
+        column-count: 3;
+    }
+}
 
 /* Media Query for Laptops and Desktops (992 px and up) */
 @media screen and (min-width:992px) {
@@ -296,6 +314,7 @@ main {
     /* This media query is for "Gallery" Page*/
     .gallerymasonry {
         column-count: 4;
+        column-gap: 0;
     }
 
 }
