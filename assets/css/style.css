@@ -287,10 +287,30 @@ h1 {
 
         /*this media query is for the footer in galery page*/
         .footernav {
-            display: flex;
-            justify-content: space-evenly;
+        display:block;
+            
         }
-    
+
+        .paraflex {
+            display:block
+        }
+        .divviewport{
+            #min-height:  100vh; 
+        }
+        .h2headercontact {
+            display: block;
+            #width: 100%;
+            #margin-bottom: 36px;
+            #margin-top: 8px;
+            #margin-left: 10px;
+        }
+.footernav {
+    display:block;
+}
+        .formstyler {
+            margin-left: 10px;
+        }
+
 
         /* This media query is for "Gallery" Page*/
         .gallerymasonry {
@@ -299,18 +319,9 @@ h1 {
 
         /*this media queiry is for "Contact Us" page*/
         main {
-            background-color:lightyellow;
+            background-color: lightyellow;
+            min-height:  80vh; 
         }
-
-        .h2headercontact {
-            margin-bottom: 36px;
-            margin-top: 8px;
-            margin-left: 10px;
-        }
-
-        .formstyler {
-            margin-left: 10px;
-        }
-
+        
 
     }
