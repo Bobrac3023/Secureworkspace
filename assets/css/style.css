@@ -168,8 +168,8 @@ main {
 
 /*This is applied to the attribute to make the hovering appear in white color*/
 .footernavigation a:hover {
-    background: white;
-}
+    background:cyan;
+    }
 
 /* This section is for Information Page styling */
 .startheader2 {
@@ -188,6 +188,7 @@ main {
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
+    font-family:cursive
 
 }
 
@@ -209,32 +210,38 @@ main {
 .section1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-evenly;
+    #justify-self: stretch;
+    #justify-content: space-around;
     #width: auto;
     #gap: 10px;
     #margin-top: 5px;
     #margin-bottom: 5px;
     #margin-left: 5px;
     #margin-right: 5px;
-    #align-items: stretch;
+    align-items: stretch;
+    #order:4;
 
 }
 
 
 .mainstyling1 {
     background-color: aqua;
-    flex-shrink: 1;
+    flex-grow: 1;
     flex-basis: 200px;
     #max-width: fit-content;
     #padding: 15px;
+    font-family: cursive;
+    border-style: solid;
 }
 
 .mainstyling2 {
     background-color: magenta;
-    flex-grow: 2;
+    flex-grow: 1;
     flex-basis: 200px;
     #padding: 15px;
     border-style: solid;
+    font-family: cursive;
+    #max-width: fit-content;
 }
 
 .mainstyling3 {
@@ -242,6 +249,8 @@ main {
     flex-grow: 1;
     flex-basis: 200px;
     #padding: 15px;
+    font-family: cursive;
+    border-style: solid;
 }
 
 .mainstyling4 {
@@ -250,6 +259,7 @@ main {
     flex-basis: 200px;
     #padding: 15px;
     border-style: solid;
+    font-family: cursive;
 }
 
 .header2style {
