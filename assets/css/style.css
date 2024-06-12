@@ -19,7 +19,6 @@ body {
     background-color: aliceblue;
     min-height: 100vh;
     font-family: sans-serif;
-
 }
 
 header {
@@ -95,23 +94,20 @@ h1 {
 
 /* This section is for FOOTER STYLING */
 
-
-
 .footer {
     display: flex;
     box-shadow: 3px 0 3px #3a3a3a;
     background-color: bisque;
-    flex-direction: row;
     justify-content: space-around;
-    #margin-top: 100px;
+    flex-direction: row;
 }
 
 /* this style is applied to h2 header inside footer element- for copyyright*/
 .footerh1 {
-    display: flex;
+    display:flex;
     padding: 0px;
     border-width: 3px;
-    margin: 20px;
+    margin: 0px;
     color: brown;
     font: bold;
     font-size: large;
@@ -122,7 +118,7 @@ h1 {
     display: flex;
     padding: 0px;
     border-width: 3px;
-    margin: 20px;
+    margin: 0px;
     color: brown;
     font: bold;
     font-size: large;
@@ -243,99 +239,11 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Media Query for Large or Landscape Phones (576 px and up) */
-@media screen and (min-width: 576px) {
-
-    /* display content in columns based on count specified*/
-    .gallerymasonry {
-        column-count: 2;
-        column-gap: 0;
-
-    }
-
-    /* Media Query for Tablets and Larger Devices (768 px and up) */
-    @media screen and (min-width:768px) {
-        h1 {
-            padding-left: 2rem;
-            margin-top: 2rem;
-        }
-
-        nav {
-            display: block;
-            position: relative;
-        }
-
-        .navigation {
-            /* adding flex properties to parent of line elements*/
-            display: flex;
-        }
-
-        .gallerymasonry {
-            column-count: 3;
-        }
-
-    }
-
-
     /* Media Query for Laptops and Desktops (992 px and up) */
     @media screen and (min-width:992px) {
-
-        h1 {
-            padding-left: 2rem;
-            margin-top: 2rem;
-        }
-
-        nav {
-            display: block;
-            position: relative;
-        }
-
-        .navigation {
-            /* adding flex properties to parent of line elements*/
-            display: flex;
-        }
-
-        /*this media query is for the footer in galery page*/
-        .footernav {
-            display: block;
-
-        }
-
-        .paraflex {
-            display: block
-        }
-
-        .divviewport {
-            #min-height: 100vh;
-        }
-
-        .h2headercontact {
-            display: block;
-            #width: 100%;
-            #margin-bottom: 36px;
-            #margin-top: 8px;
-            #margin-left: 10px;
-        }
-
-        .footernav {
-            display: block;
-        }
-
-        .formstyler {
-            margin-left: 10px;
-        }
-
-
         /* This media query is for "Gallery" Page*/
         .gallerymasonry {
-            column-count: 4;
-        }
-
-        /*this media queiry is for "Contact Us" page*/
-        main {
-            background-color: lightyellow;
-            min-height: 80vh;
-        }
+            column-count: 3;
 
 
     }
