@@ -19,8 +19,8 @@ body {
     background-color: aliceblue;
     min-height: 100vh;
     font-family: sans-serif;
-}
 
+}
 
 header {
     /*making the position of the header fixed - disabled #position: fixed;*/
@@ -96,12 +96,14 @@ h1 {
 /* This section is for FOOTER STYLING */
 
 
+
 .footer {
     display: flex;
     box-shadow: 3px 0 3px #3a3a3a;
     background-color: bisque;
     flex-direction: row;
     justify-content: space-around;
+    #margin-top: 100px;
 }
 
 /* this style is applied to h2 header inside footer element- for copyyright*/
