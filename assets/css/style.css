@@ -33,7 +33,7 @@ header {
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px black;
     margin: 0;
-    padding:0;
+    padding: 0;
 
 
 }
@@ -52,11 +52,13 @@ h1 {
     /* add a space between the each word*/
     letter-spacing: 4px;
     color: brown;
-    padding-left:0;
-    margin-top:1rem;
-    margin-bottom:0;
+    padding-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
     font: bolder;
     font-family: 'Courier New', Courier, monospace;
+    #display: flex;
+    #flex-wrap: wrap;
 
 }
 
@@ -264,18 +266,36 @@ main {
     color: black;
     font-family: sans-serif;
 }
-
-
 /* This Section is for Contact Us Page Styling*/
+
+.maincontact {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    padding: 5px;
+    border:thick double brown;
+}
 
 .h2headercontact {
     font-family: 'Courier New', Courier, monospace;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    text-align: center;
+    
+    
 }
 
 .formstyler {
     font-family: 'Courier New', Courier, monospace;
+    flex-grow: 1;
+    flex-basis: 200px;
+    text-align: center;
 }
 
+.formstyler a {
+    display:block
+}
 /* Media Query for Laptops and Desktops (992 px and up) */
 @media screen and (min-width:992px) {
 
