@@ -18,6 +18,8 @@ body {
     /*change background color from default white*/
     background-color: aliceblue;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: sans-serif;
 }
 
@@ -45,9 +47,13 @@ header a {
 h1 {
     /* add a space between the each word*/
     letter-spacing: 4px;
-    color: black;
-    padding-left: 2rem;
+    color: brown;
+    padding-left: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    font: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 .headernavigation {
@@ -65,18 +71,31 @@ h1 {
     padding: 1em;
     color: brown;
     font: bolder;
+    font-family:cursive;
 }
 
 .headernavigation a:hover {
     background: white;
 }
 
+
+
+/* this section is to make Main element take up surplus space and push footer down*/
+main {
+    flex: 1 0 auto;
+    margin-top:auto;
+}
+
+
 /* heroimage class created for background hero image*/
 #heroimage {
     width: 100%;
-    height: 700px;
+    height: 600px;
     background: url("../favicon/Taj\ Mahal\ Long\ Shot\ \ 1.jpg") no-repeat center center/cover;
-    position: relative;
+     position: relative;
+}
+.covertext{
+
 }
 
 /* This section is for Gallery page*/
@@ -91,13 +110,6 @@ h1 {
     /* remove automatic line height of text-eliminates white space between photos*/
     line-height: 0;
 }
-
-/* this section is to make Main element take up surplus space and push footer down*/
-main {
-    flex: 1 0 auto;
-    margin-top:auto;
-}
-
 /* This section is for FOOTER STYLING */
 .footer {
     display: flex;
@@ -114,8 +126,9 @@ main {
     border-width: 3px;
     margin: 0px;
     color: brown;
-    font: bold;
+    font: bolder;
     font-size: large;
+    font-family: cursive;
 }
 
 /*This is applied to H2 under Footer element- Author statement*/
@@ -125,8 +138,9 @@ main {
     border-width: 3px;
     margin: 0px;
     color: brown;
-    font: bold;
-    font-size: large;
+    font: bolder;
+    font-size:large;
+    font-family: cursive;
 }
 
 .footernavigation {
