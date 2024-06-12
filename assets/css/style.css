@@ -32,6 +32,7 @@ header {
     background: bisque;
     /* add a box shadow to seperate header from body element*/
     box-shadow: 0 2px 2px black;
+
 }
 
 header a {
@@ -71,7 +72,7 @@ h1 {
     padding: 1em;
     color: brown;
     font: bolder;
-    font-family:cursive;
+    font-family: cursive;
 }
 
 .headernavigation a:hover {
@@ -83,7 +84,7 @@ h1 {
 /* this section is to make Main element take up surplus space and push footer down*/
 main {
     flex: 1 0 auto;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 
@@ -92,11 +93,9 @@ main {
     width: 100%;
     height: 600px;
     background: url("../favicon/Taj\ Mahal\ Long\ Shot\ \ 1.jpg") no-repeat center center/cover;
-     position: relative;
+    position: relative;
 }
-.covertext{
 
-}
 
 /* This section is for Gallery page*/
 .gallerymasonry img {
@@ -110,6 +109,7 @@ main {
     /* remove automatic line height of text-eliminates white space between photos*/
     line-height: 0;
 }
+
 /* This section is for FOOTER STYLING */
 .footer {
     display: flex;
@@ -121,7 +121,7 @@ main {
 
 /* this style is applied to h2 header inside footer element- for copyyright*/
 .footerh1 {
-    display:flex;
+    display: flex;
     padding: 0px;
     border-width: 3px;
     margin: 0px;
@@ -139,7 +139,7 @@ main {
     margin: 0px;
     color: brown;
     font: bolder;
-    font-size:large;
+    font-size: large;
     font-family: cursive;
 }
 
@@ -204,30 +204,43 @@ main {
 
 .section1 {
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    align-items: stretch;
+    flex-wrap: wrap;
+    #justify-content: space-evenly;
+    #gap: 10px;
+    #margin-top: 5px;
+    #margin-bottom: 5px;
+    #margin-left: 5px;
+    #margin-right: 5px;
+    #align-items: stretch;
 
 }
 
 .mainstyling1 {
     background-color: aqua;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
 }
 
 .mainstyling2 {
     background-color: magenta;
+    flex-grow: 1;
+    flex-shrink: 200px;
+    padding: 15px;
 }
 
 .mainstyling3 {
     background-color: aqua;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
 }
 
 .mainstyling4 {
     background-color: magenta;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
 }
 
 .header2style {
@@ -258,10 +271,12 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
-    /* Media Query for Laptops and Desktops (992 px and up) */
-    @media screen and (min-width:992px) {
-        /* This media query is for "Gallery" Page*/
-        .gallerymasonry {
-            column-count: 3;}
+/* Media Query for Laptops and Desktops (992 px and up) */
+@media screen and (min-width:992px) {
 
+    /* This media query is for "Gallery" Page*/
+    .gallerymasonry {
+        column-count: 4;
     }
+
+}
