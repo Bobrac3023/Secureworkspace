@@ -57,8 +57,8 @@ h1 {
     margin-bottom: 0;
     font: bolder;
     font-family: 'Courier New', Courier, monospace;
-    #display: flex;
-    #flex-wrap: wrap;
+    display: flex;
+    flex-shrink: 1;
 
 }
 
@@ -107,7 +107,8 @@ main {
     /* this targets the images property when viewed on mobiles*/
     width: 100%;
     /* this makes alt text readable*/
-    line-height: 1em;
+    #line-height: 1em;
+    
 }
 
 .gallerymasonry {
@@ -170,8 +171,6 @@ main {
     background: white;
 }
 
-
-
 /* This section is for Information Page styling */
 .startheader2 {
     font-family: 'Courier New', Courier, monospace;
@@ -210,7 +209,8 @@ main {
 .section1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-evenly;
+    #width: auto;
     #gap: 10px;
     #margin-top: 5px;
     #margin-bottom: 5px;
@@ -231,9 +231,10 @@ main {
 
 .mainstyling2 {
     background-color: magenta;
-    flex-grow: 1;
+    flex-grow: 2;
     flex-basis: 200px;
     #padding: 15px;
+    border-style: solid;
 }
 
 .mainstyling3 {
@@ -248,6 +249,7 @@ main {
     flex-grow: 1;
     flex-basis: 200px;
     #padding: 15px;
+    border-style: solid;
 }
 
 .header2style {
@@ -304,7 +306,7 @@ main {
 /* Media Query for Tablets and Larger Devices (768 px and up) */
 @media screen and (min-width:768px) {
     .gallerymasonry {
-        column-count: 3;
+        column-count: 2;
     }
 }
 
