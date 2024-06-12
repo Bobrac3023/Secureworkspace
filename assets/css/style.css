@@ -94,23 +94,7 @@ h1 {
 }
 
 /* This section is for FOOTER STYLING */
-.footernavigation {
-    /* adding flex properties to parent of line elements*/
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-}
 
-
-.footernavigation a {
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: brown;
-    font: bolder;
-}
 
 .footer {
     display: flex;
@@ -120,27 +104,50 @@ h1 {
     justify-content: space-around;
 }
 
+/* this style is applied to h2 header inside footer element- for copyyright*/
+.footerh1 {
+    display: flex;
+    padding: 2px;
+    border-width: 1px;
+    margin: 5px;
+    color: brown;
+    font: bold;
+    font-size:large;
+}
+
+/*This is applied to H2 under Footer element- Author statement*/
+.footerh2 {
+    display: flex;
+    padding: 2px;
+    border-width: 1px;
+    margin: 5px;
+    color: brown;
+    font: bold;
+    font-size:large;
+}
+
+
+.footernavigation {
+    /* adding flex properties to parent (unordered list) of line elements*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.footernavigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: brown;
+    font: bolder;
+}
+/*This is applied to the attribute to make the hovering appear in white color*/
 .footernavigation a:hover {
     background: white;
 }
 
-.footerp1 {
-    display: flex;
-    padding: 6px;
-    border-width: 1px;
-    margin: 10px;
-    color: brown;
-    font: bolder;
-}
-
-.footerp2 {
-    display: flex;
-    padding: 6px;
-    border-width: 1px;
-    margin: 10px;
-    color: brown;
-    font: bolder;
-}
 
 
 /* This section is for Information Page styling */
