@@ -107,25 +107,24 @@ h1 {
 /* this style is applied to h2 header inside footer element- for copyyright*/
 .footerh1 {
     display: flex;
-    padding: 2px;
-    border-width: 1px;
-    margin: 5px;
+    padding: 0px;
+    border-width: 3px;
+    margin: 20px;
     color: brown;
     font: bold;
-    font-size:large;
+    font-size: large;
 }
 
 /*This is applied to H2 under Footer element- Author statement*/
 .footerh2 {
     display: flex;
-    padding: 2px;
-    border-width: 1px;
-    margin: 5px;
+    padding: 0px;
+    border-width: 3px;
+    margin: 20px;
     color: brown;
     font: bold;
-    font-size:large;
+    font-size: large;
 }
-
 
 .footernavigation {
     /* adding flex properties to parent (unordered list) of line elements*/
@@ -133,7 +132,7 @@ h1 {
     flex-flow: row wrap;
     justify-content: flex-end;
     list-style: none;
-    margin: 0;
+    margin: 1px;
 }
 
 .footernavigation a {
@@ -143,6 +142,7 @@ h1 {
     color: brown;
     font: bolder;
 }
+
 /*This is applied to the attribute to make the hovering appear in white color*/
 .footernavigation a:hover {
     background: white;
@@ -274,6 +274,7 @@ h1 {
 
     }
 
+
     /* Media Query for Laptops and Desktops (992 px and up) */
     @media screen and (min-width:992px) {
 
@@ -294,16 +295,18 @@ h1 {
 
         /*this media query is for the footer in galery page*/
         .footernav {
-        display:block;
-            
+            display: block;
+
         }
 
         .paraflex {
-            display:block
+            display: block
         }
-        .divviewport{
-            #min-height:  100vh; 
+
+        .divviewport {
+            #min-height: 100vh;
         }
+
         .h2headercontact {
             display: block;
             #width: 100%;
@@ -311,9 +314,11 @@ h1 {
             #margin-top: 8px;
             #margin-left: 10px;
         }
-.footernav {
-    display:block;
-}
+
+        .footernav {
+            display: block;
+        }
+
         .formstyler {
             margin-left: 10px;
         }
@@ -327,8 +332,8 @@ h1 {
         /*this media queiry is for "Contact Us" page*/
         main {
             background-color: lightyellow;
-            min-height:  80vh; 
+            min-height: 80vh;
         }
-        
+
 
     }
