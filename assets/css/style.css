@@ -268,21 +268,12 @@ main {
 }
 /* This Section is for Contact Us Page Styling*/
 
-.maincontact {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: aqua;
-    padding: 5px;
-    border:thick double brown;
-}
-
 .h2headercontact {
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
-    text-align: center;
-    
+    text-align:left;
     
 }
 
@@ -290,12 +281,15 @@ main {
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-basis: 200px;
-    text-align: center;
+    text-align:left;
+    padding:20px
 }
 
 .formstyler a {
-    display:block
+    #display:block
 }
+
+
 /* Media Query for Laptops and Desktops (992 px and up) */
 @media screen and (min-width:992px) {
 
