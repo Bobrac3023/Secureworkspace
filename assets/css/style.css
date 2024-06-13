@@ -105,13 +105,15 @@ main {
 /* Container holding the image and the text */
 .container {
     position: relative;
-    text-align: center;
-    color: white;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 80px;
 }
 
-
 .container:hover {
-    color: #494949 !important;
+    color: crimson!important;
     transition: all 0.3s ease 0s;
 }
 
