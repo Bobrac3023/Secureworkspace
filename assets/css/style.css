@@ -151,6 +151,7 @@ main {
     font: bolder;
     font-size: large;
     font-family: cursive;
+    #width:50%;
 }
 
 /*This is applied to H2 under Footer element- Author statement*/
@@ -163,6 +164,7 @@ main {
     font: bolder;
     font-size: large;
     font-family: cursive;
+    #width:50%;
 }
 
 .footernavigation {
@@ -339,7 +341,7 @@ main {
 /* Media Query for Tablets and Larger Devices (768 px and up) */
 @media screen and (min-width:768px) {
     .gallerymasonry {
-        column-count: 2;
+        column-count: 3;
     }
 }
 
