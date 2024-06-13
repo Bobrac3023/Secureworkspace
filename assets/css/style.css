@@ -101,6 +101,11 @@ main {
     position: relative;
 }
 
+/*This is applied to the attribute to make the hovering appear in white color*/
+#heroimage:hover {
+    #image-rendering: ;
+    }
+
 
 /* This section is for Gallery page*/
 .gallerymasonry img {
@@ -165,7 +170,6 @@ main {
     color: brown;
     font: bolder;
 }
-
 /*This is applied to the attribute to make the hovering appear in white color*/
 .footernavigation a:hover {
     background:cyan;
@@ -305,6 +309,9 @@ main {
     #display: block
 }
 
+.circle{
+    border-radius: 50%;
+}
 /* Media Query for Large or Landscape Phones (576 px and up) */
 @media screen and (min-width: 576px) {
 
