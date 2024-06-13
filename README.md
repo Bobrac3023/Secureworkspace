@@ -39,15 +39,20 @@ Four pages have been created for this project named as "home", the landing page,
 5. Technology : 
         1.Google Chrome as the Browser  
 6. Testing 
+
+1. Code Validation
 W3school HTML and CSS validators were used to test the CSS and HTML files at regular intwervals . Snapshots and links below 
+![alt text](image.png)
+
+7. Deployment 
+  9.1 via gitpod
+   9.2 via github pages
+   ![alt text](image.png)
 
 5. Credits
     1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
     2. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
     3. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art
-
-
-
 
 
 
