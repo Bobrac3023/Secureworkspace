@@ -228,8 +228,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-
-
+    
 }
 
 
@@ -239,6 +238,7 @@ main {
     flex-basis: 200px;
     font-family: cursive;
     border-style: solid;
+    
 }
 
 .mainstyling2 {
@@ -266,12 +266,13 @@ main {
 }
 
 .header2style {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:cursive;
     text-align: center;
 }
 
 .listbeautify {
     display: block;
+    
 }
 
 .listbeautify li {
@@ -279,7 +280,7 @@ main {
     display: block;
     padding: 1rem;
     color: black;
-    font-family: sans-serif;
+    font-family:cursive;
 }
 
 /* This Section is for Contact Us Page Styling*/
