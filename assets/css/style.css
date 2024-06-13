@@ -82,7 +82,8 @@ h1 {
 }
 
 .headernavigation a:hover {
-    background: white;
+    #background: white;
+    background: cyan;
 }
 
 
@@ -92,7 +93,6 @@ main {
     flex: 1 0 auto;
     margin-top: auto;
 }
-
 
 /* heroimage class created for background hero image*/
 #heroimage {
@@ -112,16 +112,11 @@ main {
     padding-right: 80px;
 }
 
-.container:hover {
-    color: crimson!important;
+.container:hover a {
+    color:gold !important;
     transition: all 0.3s ease 0s;
+    
 }
-
-/*This is applied to the attribute to make the hovering appear in white color*/
-#heroimage:hover {
-    #image-rendering: ;
-}
-
 
 /* This section is for Gallery page*/
 .gallerymasonry img {
