@@ -59,7 +59,6 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-shrink: 1;
-    #position: relative;
 
 }
 
@@ -82,7 +81,6 @@ h1 {
 }
 
 .headernavigation a:hover {
-    #background: white;
     background: cyan;
 }
 
@@ -99,7 +97,7 @@ main {
     width: 100%;
     height: 600px;
     background: url("../favicon/Taj\ Mahal\ Long\ Shot\ \ 1.jpg") no-repeat center center/cover;
-    #position: relative;
+
 }
 
 /* Container holding the image and the text */
@@ -114,9 +112,9 @@ main {
 }
 
 .container:hover a {
-    color:gold !important;
+    color: gold !important;
     transition: all 0.3s ease 0s;
-    
+
 }
 
 /* This section is for Gallery page*/
@@ -124,7 +122,7 @@ main {
     /* this targets the images property when viewed on mobiles*/
     width: 100%;
     /* this makes alt text readable*/
-    #line-height: 1em;
+
 
 }
 
@@ -152,7 +150,7 @@ main {
     font: bolder;
     font-size: large;
     font-family: cursive;
-    #width:50%;
+
 }
 
 /*This is applied to H2 under Footer element- Author statement*/
@@ -165,7 +163,7 @@ main {
     font: bolder;
     font-size: large;
     font-family: cursive;
-    #width:50%;
+
 }
 
 .footernavigation {
@@ -229,16 +227,8 @@ main {
 .section1 {
     display: flex;
     flex-wrap: wrap;
-    #justify-self: stretch;
-    #justify-content: space-around;
-    #width: auto;
-    #gap: 10px;
-    #margin-top: 5px;
-    #margin-bottom: 5px;
-    #margin-left: 5px;
-    #margin-right: 5px;
     align-items: stretch;
-    #order: 4;
+
 
 }
 
@@ -247,8 +237,6 @@ main {
     background-color: aqua;
     flex-grow: 1;
     flex-basis: 200px;
-    #max-width: fit-content;
-    #padding: 15px;
     font-family: cursive;
     border-style: solid;
 }
@@ -257,17 +245,14 @@ main {
     background-color: magenta;
     flex-grow: 1;
     flex-basis: 200px;
-    #padding: 15px;
     border-style: solid;
     font-family: cursive;
-    #max-width: fit-content;
-}
+    }
 
 .mainstyling3 {
     background-color: aqua;
     flex-grow: 1;
     flex-basis: 200px;
-    #padding: 15px;
     font-family: cursive;
     border-style: solid;
 }
@@ -276,7 +261,6 @@ main {
     background-color: magenta;
     flex-grow: 1;
     flex-basis: 200px;
-    #padding: 15px;
     border-style: solid;
     font-family: cursive;
 }
@@ -304,18 +288,18 @@ main {
 }
 
 .h2headercontact {
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
-    text-align:left;
+    text-align: left;
 
 }
 
 .formstyler {
-    display:flex;
+    display: flex;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
@@ -358,5 +342,4 @@ main {
         column-count: 4;
         column-gap: 0;
     }
-
 }
