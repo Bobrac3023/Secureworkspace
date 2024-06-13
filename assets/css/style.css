@@ -283,30 +283,38 @@ main {
 }
 
 /* This Section is for Contact Us Page Styling*/
+
+
 .section-contact {
     background-color: lightcyan;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    font-family: cursive;
+    /*flex parent property-defines alignment along the main axis*/
+    justify-content: space-around;
+    /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
+    flex-wrap: wrap;
+    #width:100%;
+
 }
 
 .h2headercontact {
-    font-family: 'Courier New', Courier, monospace;
+    /*making the child container a flex container*/
+    display: flex;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 200px;
-    #text-align: left;
-
+    flex-basis: 300px;
+    #width:100%;
 }
 
 .formstyler {
-    font-family: 'Courier New', Courier, monospace;
+    display: block;
     flex-grow: 1;
-    flex-basis: 200px;
-    padding: 20px
-}
-
-.formstyler a {
-    display: block
+    flex-shrink: 1;
+    flex-basis: 300px;
+    padding: 20px;
+    #width:100%;
 }
 
 .circle {
