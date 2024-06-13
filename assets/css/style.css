@@ -284,7 +284,6 @@ main {
 
 /* This Section is for Contact Us Page Styling*/
 
-
 .section-contact {
     background-color: lightcyan;
     display: flex;
@@ -295,7 +294,8 @@ main {
     justify-content: space-around;
     /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
     flex-wrap: wrap;
-    #width:100%;
+    #padding: 20px;
+    
 
 }
 
@@ -304,17 +304,16 @@ main {
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 300px;
-    #width:100%;
+    flex-basis: 200px;
+   
 }
 
 .formstyler {
     display: block;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 300px;
-    padding: 20px;
-    #width:100%;
+    flex-basis: 200px;
+    
 }
 
 .circle {
