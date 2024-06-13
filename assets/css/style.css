@@ -247,7 +247,7 @@ main {
     flex-basis: 200px;
     border-style: solid;
     font-family: cursive;
-    }
+}
 
 .mainstyling3 {
     background-color: aqua;
@@ -283,33 +283,30 @@ main {
 }
 
 /* This Section is for Contact Us Page Styling*/
-.background {
-    background-color: bisque;
+.section-contact {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
 }
 
 .h2headercontact {
-    display: flex;
-    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
-    text-align: left;
+    #text-align: left;
 
 }
 
 .formstyler {
-    display: flex;
-    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-basis: 200px;
-    text-align: left;
     padding: 20px
 }
 
 .formstyler a {
-    #display: block
+    display: block
 }
 
 .circle {
