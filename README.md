@@ -29,6 +29,24 @@ Four pages have been created for this project named as "home", the landing page,
 4. Contact us:
     This page is to gather information of any visitor who wishes to get in touch with the author. It collects some personal information and also allows the visitor to upload any image or file they might want to. 
 
+3. Future Features: 
+    True to responsive coding priciples the website also needs to be responsive to future requirements an enhancements.
+    The author plans to add a 3D video section, glowinf featues and more changes to the sytling and logic using Javascript.
+
+4. Typography and color scheme 
+        The following fonts were used 
+        The following colors were used 
+5. Technology : 
+        1.Google Chrome as the Browser  
+6. Testing 
+W3school HTML and CSS validators were used to test the CSS and HTML files at regular intwervals . Snapshots and links below 
+
+5. Credits
+    1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
+    2. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
+    3. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art
+
+
 
 
 
