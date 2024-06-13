@@ -59,6 +59,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-shrink: 1;
+    #position: relative;
 
 }
 
@@ -98,28 +99,19 @@ main {
     width: 100%;
     height: 600px;
     background: url("../favicon/Taj\ Mahal\ Long\ Shot\ \ 1.jpg") no-repeat center center/cover;
+    #position: relative;
+}
+
+/* Container holding the image and the text */
+.container {
     position: relative;
+    text-align: center;
+    color: white;
 }
 
-.covertext {
-    color: red !important;
-    text-transform: uppercase;
-    background: #ffffff;
-    #padding: 10px;
-    #border: 4px solid blueviolet !important;
-    #border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    transition: all 0.3s ease 0s;
-    background-color: antiquewhite;
-    font-size: small;
-}
 
-.covertext:hover {
+.container:hover {
     color: #494949 !important;
-    #border-radius: 50px;
-    #border-color: #494949 !important;
     transition: all 0.3s ease 0s;
 }
 
