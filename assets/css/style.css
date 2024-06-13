@@ -108,8 +108,9 @@ main {
     color: crimson;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-right: 80px;
+    font-family: cursive;
 }
 
 .container:hover a {
@@ -303,15 +304,19 @@ main {
 }
 
 .h2headercontact {
+    display:flex;
+    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px;
-    text-align: left;
+    text-align:left;
 
 }
 
 .formstyler {
+    display:flex;
+    flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     flex-grow: 1;
     flex-basis: 200px;
