@@ -57,10 +57,10 @@ Title - Taj Mahal
         3. It also includes the <footer> element, which has two <h2> elements nested within it ad a<nav> which defines the <ul> for social media.
             Header:
                 1.The Header section is common across all pages. It is nested under the Body element 
-                2. The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
+                2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
+                3.The header is common across all pages 
 
              Navigation:
-
                 1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
                 2.Hovering the mouse over these changes the colour to Cyan.
                 3.Flex properties applied to UL element nested under the NAV element 
@@ -72,24 +72,34 @@ Title - Taj Mahal
                 4.Link, when clicked  opens in a new tab. 
                 5.The  image explains the architecture of the taj and has been sourced externally. 
 
-    Footer 
-    
-        1.Displays the authorship of the website, copyright information and the social media icons
-        2.Hovering mouse over the icons changes the color to cyan
-        3.Each icon when clicked takes to the home page or login page of that particular social media site 
-        4.Each icon when clicked opens in a new tab and has a "alt " element to cater for the visually impaired.
+            Footer 
+                1.Displays the authorship of the website, copyright information and the social media icons
+                2.Hovering mouse over the icons changes the color to "cyan"
+                3.Clicking the social media icon opens in a new tab - home page or login page of that particular social media site 
+                4.Each icon has a "alt" element to cater for the visually impaired.
+                5.The footer is common across all pages 
+
     b.Information page: 
-        The information page has header titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. The paragraph, outlines what the user would experience when he/she visits the Taj and what other things they neeed to do there.  
-        There are four sections outlined below which provide additonal information and answer queries uppermost in the mind of  visitors 
-        I. Reasons to visit the "Wow" factor 
-        II. Historical facts 
-        III.How to get there 
-        IV. Best time to visit ( this section also has an external link ) 
+        1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
+        2. The paragraph, contents created by the author explains the feelings one could experience. 
+           These feeling were experienced by the author on his visit . 
+           It also provides some information of past visitors and things to do..  
+        3. Four sections on this page provide additonal information.
+        4. These sections are  
+            I. Reasons to visit the "Wow" factor 
+            II. Historical facts 
+            III.How to get there 
+            IV. Best time to visit ( has an external clickable link ) 
+        5. Flex properties were used 
+
     c. Gallery page : 
-        This page showcases some photographs of the Taj including areas like the front gate. 
-        It also shocases the authors family which outlines the fact that the author has indeed visited the Taj and explains from a first hand experience. 
-    d. Contact us:
-        This page is to gather information of any visitor who wishes to get in touch with the author. It collects some personal information and also allows the visitor to upload any image or file they might want to. 
+        1.Displays photgraphs takne by the author on his visit. 
+        2. Masonry layout along with media queries was used in style sheet to ake this section responsive. 
+
+    d. Contact Us page:
+        1. This page is used to gather visitor information 
+        2. A visitor can also drop images or files if they desire. 
+        3.
 
 6. Future Features: 
     True to responsive coding priciples the website also needs to be responsive to future requirements an enhancements.
@@ -98,9 +108,13 @@ Title - Taj Mahal
 7. Testing 
 
    7.1 code validation
-   W3school HTML and CSS validators were used to test the CSS and HTML files at regular intwervals . 
-   Snapshots and links below 
-   [alt text](image.png)
+        a.W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
+
+        b. CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
+        
+
+
+   
 
    7.2 test cases (user story based with screenshots)
    7.3 fixed bugs
