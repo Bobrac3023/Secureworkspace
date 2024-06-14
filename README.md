@@ -61,6 +61,17 @@ W3school HTML and CSS validators were used to test the CSS and HTML files at reg
 Many websites were visited during the creation fot hsi website for different reasons categorised as below 
 Understabding key concepts.
 
+1. Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+2. Controlling ratios of flex items along the main axis- This is the guide I suggest users to read next. 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis
+3. A Complete Guide to Flexbox : This is the a ready reference recokner to be kept handy while coding 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. Flex Box from Code Institute https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. The Box Model Introduction part 2 - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/3ec01463d1ce4d82842b74a5706925d3/
+6. Httml Color Codes : https://html-color.codes/
+7. Looking for a specific device’s viewport size? https://viewportsizer.com/devices/
+8. ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
 
 
 Referencing information linked to this website 
