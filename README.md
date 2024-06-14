@@ -116,34 +116,28 @@ Title - Taj Mahal
         a.W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
 
         b. CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
-        
+        ![CSS Validation 15th June 2024](<CSS validation.png>)
 
 
+8. fixed bugs
    
 
-   7.2 test cases (user story based with screenshots)
-   7.3 fixed bugs
-   7.4 supported screens and browsers
-
-
 8. Deployment 
-  7.1 via gitpod
-  1.First a GMAIL account was created by Code Institute 
-  ![Code institute gmail ccount ](<Code Institute gmail ID.png>)
-  2. Authorize Code institute for gitpod 
-![authorize code institute](<authroize code institute in gitpod-1.png>)
-
-
-  Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
-  1) Git add .
-  2) Git commit -m "meaninful comment" 
-  3) Git push - to push changes to Github 
+    7.1 via gitpod
+        1.First a GMAIL account was created by Code Institute 
+        ![Code institute gmail ccount ](<Code Institute gmail ID.png>)
+        2. Authorize Code institute for gitpod 
+        ![authorize code institute](<authroize code institute in gitpod-1.png>)
+         3.Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
+            1) Git add .
+            2) Git commit -m "meaninful comment" 
+            3) Git push - to push changes to Github 
 
    7.2 via github pages
-   ![Screenshot of GITHUB - to create an external link for the website](image.png)
-   ![Github setting for Secureworkspace external link deployment ](<Github setting for secureworkspace external link.png>)
-   ![Github deployement page ](<Github deployment page.png>)
-   ![Secureworkspace repository](<Secureworkspace repository.png>)
+        ![Screenshot of GITHUB - to create an external link for the website](image.png)
+        ![Github setting for Secureworkspace external link deployment ](<Github setting for secureworkspace external link.png>)
+        ![Github deployement page ](<Github deployment page.png>)
+        ![Secureworkspace repository](<Secureworkspace repository.png>)
 
 9. Credits
 
