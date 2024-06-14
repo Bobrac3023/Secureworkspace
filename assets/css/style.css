@@ -123,7 +123,6 @@ main {
     width: 100%;
     /* this makes alt text readable*/
 
-
 }
 
 .gallerymasonry {
@@ -283,7 +282,7 @@ main {
     font-family:cursive;
 }
 
-/* This Section is for Contact Us Page Styling*/
+/* This Section is for "Contact Us" Page Styling*/
 
 .section-contact {
     background-color: lightcyan;
@@ -315,6 +314,10 @@ main {
     flex-shrink: 1;
     flex-basis: 200px;
     
+}
+
+.h2headercontact {
+padding: 30px;
 }
 
 .circle {
