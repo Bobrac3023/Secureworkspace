@@ -1,14 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-# This template has been deprecated
-
-Please use (and bookmark) this template instead: [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
-
-Any projects built using the old template will continue to work. For all new projects, please use the **CI Full Template**, which will be updated more frequently.
-
----
-Happy coding!
-
 Taj Mahal – an Eternal Calling 
 
 1. Purpose of the project. 
@@ -17,14 +6,29 @@ Taj Mahal – an Eternal Calling
 As an example, a tourist may find useful information pertaining to "visit times" and "how to get there". Likewise anyone with interest in architecture can find useful information under "tickle your curosity" link on the landing page.Furthermore, details on the "information page" can be used to to arrive at decisons on the reasons to to visit the Taj. 
 Visitors to the website can leave their details to get in touch with the author or upload their own experiences via the "upload files and image" section under the "Contact us" page. 
  
-2. user stories
-Four pages have been created for this project named as "home", the landing page, "information", "gallery" and "contact us".
+2. Features.
+        a.The website is designed using the "Mobile First" Responsive approach using a structure layout using "meta" tags.
+        b.The website has four pages including the landing page.  "Home", "Information", "Gallery" and "Contact Us".
+        c.The header inclues the title of the website " Taj Mahal- An Eternal Calling and is common across all pages 
+        d.The footer inlcudes the "copyright" and " author" details including icons for social media
+        e.The chocie of foreground and background colors have the right contrast providing a rich user experience .
+        d. All images, inclduing the hero image has a "alt " element to cater for the visually impaired.
+        f. All images in the gallery have the right resolution when viewed across screens with different viewports.
+        g. External links referenced in the " tickle your curosity" on the home page and "best time to visit" section under the information page open in a seperate tab.
+        h.CSS media queires used where appropriate for different screen sizes.
+        i. Masonry layout used to align images in the "Gallery" page.
+        j.Relative paths are used for refering to folders and files.
+                l.Favicon is used to differentiate the page in browser tab
+        j. "Keywords" and "Description" incldued for search engine optimization. 
+
+
+
 1.Home page ( landing page) : - 
     This page is divided into three sections, namely the header, main and footer section. This page is the landing page which greets the user when the url is clicked. The landing page has a header with the title " The Taj- An Eternal Calling" , navigation links to the other pages. These navigation links change color when the user hovers the mouse over it 
     Inside the hero image just below the header, in the center is another link named"architecture of the taj" which opens in a new external page. The  image explains the architecture of the taj and has been sourced from an external source 
     The footer section display the authorship of the website, copyright information and the social media icons
-2. Information page: T
-    he information page has header titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. The paragraph, outlines what the user would experience when he/she visits the Taj and what other things they neeed to do there.  
+2. Information page: 
+    The information page has header titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. The paragraph, outlines what the user would experience when he/she visits the Taj and what other things they neeed to do there.  
     There are four sections outlined below which provide additonal information and answer queries uppermost in the mind of  visitors 
     a. Reasons to visit the "Wow" factor 
     b. Historical facts 
@@ -39,27 +43,55 @@ Four pages have been created for this project named as "home", the landing page,
 3. Future Features: 
     True to responsive coding priciples the website also needs to be responsive to future requirements an enhancements.
     The author plans to add a 3D video section, glowinf featues and more changes to the sytling and logic using Javascript.
+    
 
-4. Typography and color scheme 
-        The following fonts were used 
-        The following colors were used 
-5. Technology : 
+5. Typography and color scheme.
+
+    a.Google fonts downloaded 
+    ('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+    b. Font-family : "Cursive", Courier New', Courier, monospace
+    c.color :   aliceblue,bisque,brown,cyan,crimson,gold,lightyellow,aqua, magenta,lightcyan,
+        
+6. Technology : 
         1.Google Chrome as the Browser  
-6. Testing 
+    
+7. Testing 
 
-1. Code Validation
-W3school HTML and CSS validators were used to test the CSS and HTML files at regular intwervals . Snapshots and links below 
-![alt text](image.png)
+   7.1 code validation
+   W3school HTML and CSS validators were used to test the CSS and HTML files at regular intwervals . 
+   Snapshots and links below 
+   [alt text](image.png)
+
+   7.2 test cases (user story based with screenshots)
+   7.3 fixed bugs
+   7.4 supported screens and browsers
+
 
 7. Deployment 
-  9.1 via gitpod
-   9.2 via github pages
+  7.1 via gitpod
+
+  Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
+  1) Git add .
+  2) Git commit -m "meaninful comment" 
+  3) Git push - to push changes to Github 
+
+   7.2 via github pages
    ![alt text](image.png)
 
 5. Credits
 
-Many websites were visited during the creation fot hsi website for different reasons categorised as below 
-Understabding key concepts.
+
+Referenced sites 
+
+1. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
+2. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art
+
+Images
+
+1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
+
+
+Understanding key concepts.
 
 1. Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here: 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
@@ -73,28 +105,10 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 7. Looking for a specific device’s viewport size? https://viewportsizer.com/devices/
 8. ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
 
-
-Referencing information linked to this website 
-
-    1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
-    2. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
-    3. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art
+    
 
 
 
 
-3. Features
-4. future features
-5. Typography and color scheme
-6. wireframes
-7. technology
-8. testing
-   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
-9. Deployment
-   9.1 via gitpod
-   9.2 via github pages
-10. credits
+
 
