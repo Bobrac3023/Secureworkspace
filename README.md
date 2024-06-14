@@ -9,7 +9,14 @@ Any projects built using the old template will continue to work. For all new pro
 ---
 Happy coding!
 
-1.Purpose of the project
+Taj Mahal – an Eternal Calling 
+
+1. Purpose of the project. 
+
+"Taj Mahal - An Eternal calling" website is a "one stop" source of information that caters to users of all ages and varied interests across fields. It provides first hand information based on authors "TWO" visits to the Taj Mahal. It is supported by pictures clicked by the author and includes a "link" to a published artcile articulating the authors thoughts.
+As an example, a tourist may find useful information pertaining to "visit times" and "how to get there". Likewise anyone with interest in architecture can find useful information under "tickle your curosity" link on the landing page.Furthermore, details on the "information page" can be used to to arrive at decisons on the reasons to to visit the Taj. 
+Visitors to the website can leave their details to get in touch with the author or upload their own experiences via the "upload files and image" section under the "Contact us" page. 
+ 
 2. user stories
 Four pages have been created for this project named as "home", the landing page, "information", "gallery" and "contact us".
 1.Home page ( landing page) : - 
