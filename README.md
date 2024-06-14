@@ -136,6 +136,9 @@ Title - Taj Mahal
 
    7.2 via github pages
    ![Screenshot of GITHUB - to create an external link for the website](image.png)
+   ![Github setting for Secureworkspace external link deployment ](<Github setting for secureworkspace external link.png>)
+   ![Github deployement page ](<Github deployment page.png>)
+   ![Secureworkspace repository](<Secureworkspace repository.png>)
 
 9. Credits
 
@@ -148,22 +151,22 @@ Title - Taj Mahal
 
     b.Images
 
-    1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
+        1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
 
 
     c.Understanding key concepts.
 
-    1. Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here: 
-    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
-    2. Controlling ratios of flex items along the main axis- This is the guide I suggest users to read next. 
-    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis
-    3. A Complete Guide to Flexbox : This is the a ready reference recokner to be kept handy while coding 
-    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    4. Flex Box from Code Institute https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-    5. The Box Model Introduction part 2 - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/3ec01463d1ce4d82842b74a5706925d3/
-    6. Httml Color Codes : https://html-color.codes/
-    7. Looking for a specific device’s viewport size? https://viewportsizer.com/devices/
-    8. ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
+        1. Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here: 
+         https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+        2. Controlling ratios of flex items along the main axis- This is the guide I suggest users to read next. 
+        https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis
+         3. A Complete Guide to Flexbox : This is the a ready reference recokner to be kept handy while coding 
+        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+        4. Flex Box from Code Institute https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+        5. The Box Model Introduction part 2 - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/3ec01463d1ce4d82842b74a5706925d3/
+        6. Httml Color Codes : https://html-color.codes/
+        7. Looking for a specific device’s viewport size? https://viewportsizer.com/devices/
+        8. ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
 
         
 
