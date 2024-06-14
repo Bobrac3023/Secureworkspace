@@ -37,11 +37,13 @@ Title - Taj Mahal
            Radeon Graphics    
     
 5. Website Page and feature Description 
-    a.Home page ( landing page) : - 
+    a.Home page ( landing page) :
+
         1.This page is divided into three sections, Head, Body and Footer. 
         2. The Main element contains the header and hero image 
         2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
     Head Section 
+    ![Screenshot of main landing page with mouse hovering over the home page](<Main Page with mouse hover over home.png>) 
         1.Language chosen is US English 
         2.Meta tags "viewport" and "content" are included to make the page responsive. 
         3.Keywords and description are added in the head section for Search Engine Optimization 
@@ -71,6 +73,7 @@ Title - Taj Mahal
                 3.Hovering the mouse over it changes the color to gold 
                 4.Link, when clicked  opens in a new tab. 
                 5.The  image explains the architecture of the taj and has been sourced externally. 
+                
 
             Footer 
                 1.Displays the authorship of the website, copyright information and the social media icons
