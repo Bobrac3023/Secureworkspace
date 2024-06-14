@@ -227,7 +227,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    
+
 }
 
 
@@ -237,7 +237,7 @@ main {
     flex-basis: 200px;
     font-family: cursive;
     border-style: solid;
-    
+
 }
 
 .mainstyling2 {
@@ -265,13 +265,13 @@ main {
 }
 
 .header2style {
-    font-family:cursive;
+    font-family: cursive;
     text-align: center;
 }
 
 .listbeautify {
     display: block;
-    
+
 }
 
 .listbeautify li {
@@ -279,45 +279,55 @@ main {
     display: block;
     padding: 1rem;
     color: black;
-    font-family:cursive;
+    font-family: cursive;
 }
 
 /* This Section is for "Contact Us" Page Styling*/
 
 .section-contact {
     background-color: lightcyan;
+    /*Creating a flex container using flexbox*/
     display: flex;
+    /* items display in a row on the mains axis- teh default property */
     flex-direction: row;
+    /*wrapping our flex items to wrap into multiple lines- for small screen viewing"*/
+    flex-wrap: wrap;
     align-items: center;
     font-family: cursive;
     /*flex parent property-defines alignment along the main axis*/
     justify-content: space-around;
     /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
-    flex-wrap: wrap;
+   
     #padding: 20px;
-    
+
 
 }
 
 .h2headercontact {
     /*making the child container a flex container*/
     display: flex;
-    flex-grow: 1;
+    #flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 200px;
-   
+    #flex-basis: 200px;
+    flex-basis: auto;
+
 }
 
 .formstyler {
     display: block;
-    flex-grow: 1;
+    #flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 200px;
-    
+    #flex-basis: 200px;
+    flex-basis: auto;
+
 }
 
-.h2headercontact {
-padding: 30px;
+.div2-contact {
+    #padding: 10px;
+    #margin-left: 10%;
+    flex-shrink: 1;
+    #flex-basis: 200px;
+    flex-basis: auto;
 }
 
 .circle {
