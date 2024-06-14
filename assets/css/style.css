@@ -24,7 +24,6 @@ body {
 }
 
 header {
-    /*making the position of the header fixed - disabled #position: fixed;*/
     z-index: 99;
     /*media query-relative width value*/
     width: 100%;
@@ -63,7 +62,7 @@ h1 {
 }
 
 .headernavigation {
-    /* adding flex properties to parent of line elements*/
+    /* assigned to the UL list under the parent -Header to change to FLEX properties*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -297,7 +296,7 @@ main {
     /*flex parent property-defines alignment along the main axis*/
     justify-content: space-around;
     /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
-   
+
     #padding: 20px;
 
 

@@ -1,4 +1,4 @@
-Taj Mahal – an Eternal Calling 
+Title - Taj Mahal 
 
 1. Purpose of the project. 
 
@@ -19,7 +19,7 @@ Taj Mahal – an Eternal Calling
         h. CSS media queires used where appropriate for different screen sizes.
         i. Masonry layout used to align images in the "Gallery" page.
         j. Relative paths are used for refering to folders and files.
-        l. Favicon is used to differentiate the page in browser tab
+        l. Favicon is  included to be displayed within the browser tabs and bookmarks bar is added for three different 
         j. "Keywords" and "Description" incldued for search engine optimization. 
         k. "Hover" property used to hightlight pages on navigation bar, social media icons and "tickle your curosity" link on landing page.
 
@@ -38,9 +38,46 @@ Taj Mahal – an Eternal Calling
     
 5. Website Page and feature Description 
     a.Home page ( landing page) : - 
-        This page is divided into three sections, namely the header, main and footer section. This page is the landing page which greets the user when the url is clicked. The landing page has a header with the title " The Taj- An Eternal Calling" , navigation links to the other pages. These navigation links change color when the user hovers the mouse over it 
-        Inside the hero image just below the header, in the center is another link named"architecture of the taj" which opens in a new external page. The  image explains the architecture of the taj and has been sourced from an external source 
-        The footer section display the authorship of the website, copyright information and the social media icons
+        1.This page is divided into three sections, Head, Body and Footer. 
+        2. The Main element contains the header and hero image 
+        2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
+    Head Section 
+        1.Language chosen is US English 
+        2.Meta tags "viewport" and "content" are included to make the page responsive. 
+        3.Keywords and description are added in the head section for Search Engine Optimization 
+        4.The CSS stylesheet which is an external file is linked here in the head section 
+        5.The favicon to be displayed within the browser tabs and bookmarks bar is added for three different screen sizes.
+        6. The title "Taj Mahal " is defined here.
+
+    BODY SECTION  
+        
+        1.The body element contains <div> element, nested within it , two child elements "<a>" and <nav>.
+        2. The <nav> included a <ul> with details of each page
+        3. below the <div>, under the <main>, ther is a <section> which has the hero image 
+        3. It also includes the <footer> element, which has two <h2> elements nested within it ad a<nav> which defines the <ul> for social media.
+            Header:
+                1.The Header section is common across all pages. It is nested under the Body element 
+                2. The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
+
+             Navigation:
+
+                1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
+                2.Hovering the mouse over these changes the colour to Cyan.
+                3.Flex properties applied to UL element nested under the NAV element 
+          
+            HeroImage 
+                1.The Heroimage has been clickeed by the author dueing his visit to TAJ 
+                2.Inside the hero image just below the header, in the center is a link "Tickle your curosity" ".
+                3.Hovering the mouse over it changes the color to gold 
+                4.Link, when clicked  opens in a new tab. 
+                5.The  image explains the architecture of the taj and has been sourced externally. 
+
+    Footer 
+    
+        1.Displays the authorship of the website, copyright information and the social media icons
+        2.Hovering mouse over the icons changes the color to cyan
+        3.Each icon when clicked takes to the home page or login page of that particular social media site 
+        4.Each icon when clicked opens in a new tab and has a "alt " element to cater for the visually impaired.
     b.Information page: 
         The information page has header titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. The paragraph, outlines what the user would experience when he/she visits the Taj and what other things they neeed to do there.  
         There are four sections outlined below which provide additonal information and answer queries uppermost in the mind of  visitors 
@@ -86,7 +123,9 @@ Taj Mahal – an Eternal Calling
     a.Referenced sites 
 
         1. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
-        2. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art
+        2. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art.
+        3. Favicon code was referenced from the Code Institute.
+        4. Masonry code was referenced from the code institute.  
 
     b.Images
 
