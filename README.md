@@ -57,6 +57,14 @@ W3school HTML and CSS validators were used to test the CSS and HTML files at reg
    ![alt text](image.png)
 
 5. Credits
+
+Many websites were visited during the creation fot hsi website for different reasons categorised as below 
+Understabding key concepts.
+
+
+
+Referencing information linked to this website 
+
     1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
     2. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
     3. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art
@@ -78,3 +86,4 @@ W3school HTML and CSS validators were used to test the CSS and HTML files at reg
    9.1 via gitpod
    9.2 via github pages
 10. credits
+
