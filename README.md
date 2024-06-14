@@ -80,6 +80,8 @@ Title - Taj Mahal
                 5.The footer is common across all pages 
 
     b.Information page: 
+    ![Screenshot of Information Page ](image-2.png)
+    
         1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
         2. The paragraph, contents created by the author explains the feelings one could experience. 
            These feeling were experienced by the author on his visit . 
@@ -130,7 +132,7 @@ Title - Taj Mahal
   3) Git push - to push changes to Github 
 
    7.2 via github pages
-   ![alt text](image.png)
+   ![Screenshot of GITHUB - to create an external link for the website](image.png)
 
 9. Credits
 
