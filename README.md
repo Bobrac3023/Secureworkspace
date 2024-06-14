@@ -81,7 +81,7 @@ Title - Taj Mahal
                 3.Clicking the social media icon opens in a new tab - home page or login page of that particular social media site 
                 4.Each icon has a "alt" element to cater for the visually impaired.
                 5.The footer is common across all pages 
-
+               
     b.Information page: 
     ![Screenshot of Information Page ](image-2.png)
     
@@ -128,6 +128,11 @@ Title - Taj Mahal
 
 8. Deployment 
   7.1 via gitpod
+  1.First a GMAIL account was created by Code Institute 
+  ![Code institute gmail ccount ](<Code Institute gmail ID.png>)
+  2. Authorize Code institute for gitpod 
+![authorize code institute](<authroize code institute in gitpod-1.png>)
+
 
   Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
   1) Git add .
