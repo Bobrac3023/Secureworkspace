@@ -61,12 +61,13 @@ Title - Taj Mahal
                 1.The Header section is common across all pages. It is nested under the Body element 
                 2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
                 3.The header is common across all pages 
+    ![header screenshot](/readme.doc/header.png)
 
              Navigation:
                 1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
                 2.Hovering the mouse over these changes the colour to Cyan.
                 3.Flex properties applied to UL element nested under the NAV element 
-          
+    ![navigation screenshot with hover effect](/readme.doc/navigation.png)      
             HeroImage 
                 1.The Heroimage has been clickeed by the author dueing his visit to TAJ 
                 2.Inside the hero image just below the header, there are two links ".
@@ -74,8 +75,8 @@ Title - Taj Mahal
                 4."Tickle your curosity" Link, explains the architecture of the taj and has been sourced externally. 
                 readme_doc/Architecture of TAJ.png
     ![architecture image](/readme.doc/architecture_%20of_taj.png)        
-
                 5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his expereince and thoughts.
+    ![why is taj special screenshot](/readme.doc/why_is_taj_special.png)
                 6. both links open in a new tab.
 
             Footer 
@@ -84,7 +85,8 @@ Title - Taj Mahal
                 3.Clicking the social media icon opens in a new tab - home page or login page of that particular social media site 
                 4.Each icon has a "alt" element to cater for the visually impaired.
                 5.The footer is common across all pages 
-               
+    ![screenshot of footer](/readme.doc/footer.png)    
+
     b.Information page: 
     ![Screenshot of Information Page ](/readme.doc/information_page.png)
     
@@ -111,17 +113,17 @@ Title - Taj Mahal
         3.
 
 6. Future Features: 
-    True to responsive coding priciples the website also needs to be responsive to future requirements an enhancements.
-    The author plans to add a 3D video section, glowinf featues and more changes to the sytling and logic using Javascript.
+    True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
+    The author plans to add a 3D video section, glowing featues and more changes to the sytling and logic using Javascript.
     
 7. Testing 
 
    7.1 code validation
         a.W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
-
+![html validation screenshot](/readme.doc/html_validation_screenshot.png)
         b. CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
            readme_doc/CSS validation.png
-
+![css validation screenshot](/readme.doc/css_validation_screenshot.png)
 
 
 8. fixed bugs
@@ -130,19 +132,19 @@ Title - Taj Mahal
 8. Deployment 
     7.1 via gitpod
         1.First a GMAIL account was created by Code Institute 
-        ![Code institute gmail ccount ](<Code Institute gmail ID.png>)
+    ![Code institute gmail account ](/readme.doc/step1_codeinst_gmail_creation.png)
         2. Authorize Code institute for gitpod 
-        ![authorize code institute](<authroize code institute in gitpod-1.png>)
+    ![authorize code institute](/readme.doc/authroize%20code%20institute%20in%20gitpod.png)
          3.Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
-            1) Git add .
-            2) Git commit -m "meaninful comment" 
-            3) Git push - to push changes to Github 
+            1. Git add .
+            2. Git commit -m "meaninful comment" 
+            3. Git push - to push changes to Github 
 
    7.2 via github pages
-        ![Screenshot of GITHUB - to create an external link for the website](image.png)
-        ![Github setting for Secureworkspace external link deployment ](<Github setting for secureworkspace external link.png>)
-        ![Github deployement page ](<Github deployment page.png>)
-        ![Secureworkspace repository](<Secureworkspace repository.png>)
+    ![Screenshot of GITHUB - to create an external link for the website](/readme.doc/deployment_screenshot.png)
+    ![Github setting for Secureworkspace external link deployment ](/readme.doc/github_screenshot.png)
+    ![Github deployement page ](/readme.doc/github_setting_screenshot.png)
+    ![Secureworkspace repository](/readme.doc/secureworkspace_repository.png)
 
 9. Credits
 
