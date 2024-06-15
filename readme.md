@@ -43,7 +43,7 @@ Title - Taj Mahal
         2. The Main element contains the header and hero image 
         2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
     Head Section 
-    ![Screenshot of main landing page with mouse hovering over the home page](//Secureworkspace//readme.doc/Main%20page%20with%20mouse%20hover%20over%20facebook.png) 
+    ![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/home_page_with_mouse_hover.png) 
         1.Language chosen is US English 
         2.Meta tags "viewport" and "content" are included to make the page responsive. 
         3.Keywords and description are added in the head section for Search Engine Optimization 
@@ -61,7 +61,7 @@ Title - Taj Mahal
                 1.The Header section is common across all pages. It is nested under the Body element 
                 2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
                 3.The header is common across all pages 
-    ![header screenshot](//Secureworkspace//readme.doc/header.png)
+    ![header screenshot](readme.doc/header.png)
 
              Navigation:
                 1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
