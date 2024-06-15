@@ -43,7 +43,7 @@ Title - Taj Mahal
         2. The Main element contains the header and hero image 
         2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
     Head Section 
-    ![Screenshot of main landing page with mouse hovering over the home page](<Main Page with mouse hover over home.png>) 
+    ![Screenshot of main landing page with mouse hovering over the home page](readme_doc/Main Page with mouse hover over home.png) 
         1.Language chosen is US English 
         2.Meta tags "viewport" and "content" are included to make the page responsive. 
         3.Keywords and description are added in the head section for Search Engine Optimization 
@@ -83,7 +83,7 @@ Title - Taj Mahal
                 5.The footer is common across all pages 
                
     b.Information page: 
-    ![Screenshot of Information Page ](image-2.png)
+    ![Screenshot of Information Page ](informationpagescreenshot.png)
     
         1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
         2. The paragraph, contents created by the author explains the feelings one could experience. 
@@ -96,6 +96,7 @@ Title - Taj Mahal
             III.How to get there 
             IV. Best time to visit ( has an external clickable link ) 
         5. Flex properties were used 
+        
 
     c. Gallery page : 
         1.Displays photgraphs takne by the author on his visit. 
