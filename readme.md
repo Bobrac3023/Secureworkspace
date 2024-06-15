@@ -116,7 +116,8 @@ Title - Taj Mahal
         a.W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
 
         b. CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
-        ![CSS Validation 15th June 2024](<CSS validation.png>)
+           readme_doc/CSS validation.png
+
 
 
 8. fixed bugs
