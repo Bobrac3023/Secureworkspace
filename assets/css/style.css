@@ -117,6 +117,11 @@ main {
 }
 
 /* This section is for Gallery page*/
+
+.background{
+    background-color:cornflowerblue;
+
+}
 .gallerymasonry img {
     /* this targets the images property when viewed on mobiles*/
     width: 100%;
@@ -128,6 +133,7 @@ main {
 .gallerymasonry {
     /* remove automatic line height as images are treated as text-eliminates white space between photos*/
     line-height: 0;
+    
 }
 
 /* This section is for FOOTER STYLING */
@@ -286,7 +292,7 @@ main {
 /* This Section is for "Contact Us" Page Styling*/
 
 .section-contact {
-    background-color:lightcyan;
+    background-color:lightcyan
     /*Creating a flex container using flexbox*/
     display:table-column;
     /* items display in a row on the mains axis- teh default property */
