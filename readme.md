@@ -69,11 +69,11 @@ Title - Taj Mahal
           
             HeroImage 
                 1.The Heroimage has been clickeed by the author dueing his visit to TAJ 
-                2.Inside the hero image just below the header, in the center is a link "Tickle your curosity" ".
+                2.Inside the hero image just below the header, there are two links ".
                 3.Hovering the mouse over it changes the color to gold 
-                4.Link, when clicked  opens in a new tab. 
-                5.The  image explains the architecture of the taj and has been sourced externally. 
-                
+                4."Tickle your curosity" Link, explains the architecture of the taj and has been sourced externally. 
+                5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his expereince and thoughts.
+                6. both links open in a new tab.
 
             Footer 
                 1.Displays the authorship of the website, copyright information and the social media icons
