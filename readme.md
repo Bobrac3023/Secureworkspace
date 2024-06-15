@@ -78,7 +78,7 @@ Title - Taj Mahal
                 4."Tickle your curosity" Link, explains the architecture of the taj and has been sourced externally. 
                 readme_doc/Architecture of TAJ.png
     ![architecture image](readme.doc/architecture_%20of_taj.png)        
-                5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his expereince and thoughts.
+                5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his experience and thoughts.
     ![why is taj special screenshot](readme.doc/why_is_taj_special.png)
                 6. both links open in a new tab.
 
@@ -108,8 +108,8 @@ Title - Taj Mahal
     ![best time to visit section](readme.doc/best_time_to_visit.png)   
 
     c. Gallery page : 
-        1.Displays photgraphs takne by the author on his visit. 
-        2. Masonry layout along with media queries was used in style sheet to ake this section responsive. 
+        1.Displays photgraphs taken by the author on his visit. 
+        2. Masonry layout along with media queries was used in style sheet to make this section responsive. 
     ![gallery home page](readme.doc/gallery_page_screenshot.png)
 
     d. Contact Us page:
@@ -120,7 +120,7 @@ Title - Taj Mahal
 
 6. Future Features: 
     True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
-    The author plans to add a 3D video section, glowing featues and more changes to the sytling and logic using Javascript.
+    The author plans to add a 3D video section, glowing features and more changes to the sytling and logic using Javascript.
     
 7. Testing 
 
@@ -133,9 +133,10 @@ Title - Taj Mahal
 
 
 8. fixed bugs
-   The most bugs fixed were related to CSS syting using flexbox properties and sizing screens for display of images in the gallery.
+   The most bugs fixed were related to CSS styling using flexbox properties and sizing screens for display of images in the gallery.
 
 8. Deployment 
+
     7.1 via gitpod
         1.First a GMAIL account was created by Code Institute 
     ![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png)
