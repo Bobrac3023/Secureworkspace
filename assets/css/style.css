@@ -281,6 +281,11 @@ main {
     font-family: cursive;
 }
 
+.glow:hover a {
+    color: gold !important;
+    transition: all 0.3s ease 0s;
+
+
 /* This Section is for "Contact Us" Page Styling*/
 
 .section-contact {
