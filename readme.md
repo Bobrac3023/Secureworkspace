@@ -58,7 +58,7 @@ Title - Taj Mahal
         3. below the <div>, under the <main>, ther is a <section> which has the hero image 
         3. It also includes the <footer> element, which has two <h2> elements nested within it ad a<nav> which defines the <ul> for social media.
 
-        
+
             Header:
                 1.The Header section is common across all pages. It is nested under the Body element 
                 2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
@@ -115,7 +115,8 @@ Title - Taj Mahal
     d. Contact Us page:
         1. This page is used to gather visitor information 
         2. A visitor can also drop images or files if they desire. 
-        3.
+![screenshot of forminput](readme.doc/forminput_screenshot.png)
+![screenshot of formdata on code institute server](readme.doc/formdata_screenshot.png)
 
 6. Future Features: 
     True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
