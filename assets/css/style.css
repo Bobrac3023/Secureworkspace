@@ -290,51 +290,33 @@ main {
 /* This Section is for "Contact Us" Page Styling*/
 
 .section-contact {
-    background-color: lightcyan;
+    background-color:lightcyan;
     /*Creating a flex container using flexbox*/
-    display: flex;
+    display:table-column;
     /* items display in a row on the mains axis- teh default property */
-    flex-direction: row;
+    flex-direction: column;
     /*wrapping our flex items to wrap into multiple lines- for small screen viewing"*/
-    flex-wrap: wrap;
+    #flex-wrap: wrap;
     align-items: center;
     font-family: cursive;
     /*flex parent property-defines alignment along the main axis*/
-    justify-content: space-around;
+    #justify-content: space-around;
     /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
-    #padding: 20px;
-}
+    }
 
 .h2headercontact {
     /*making the child container a flex container*/
-    display: flex;
-    #flex-grow: 1;
-    flex-shrink: 1;
-    #flex-basis: 200px;
-    flex-basis: auto;
-
+    
 }
-
 .formstyler {
-    display: block;
-    #flex-grow: 1;
-    flex-shrink: 1;
-    #flex-basis: 200px;
-    flex-basis: auto;
+    
 
 }
 
 .div2-contact {
-    #padding: 10px;
-    #margin-left: 10%;
-    flex-shrink: 1;
-    #flex-basis: 200px;
-    flex-basis: auto;
-}
-
-.circle {
-    border-radius: 50%;
-}
+    padding:20px;
+    
+ }
 
 /* Media Query for Large or Landscape Phones (576 px and up) */
 @media screen and (min-width: 576px) {
@@ -357,10 +339,9 @@ main {
 
 /* Media Query for Laptops and Desktops (992 px and up) */
 @media screen and (min-width:992px) {
-
     /* This media query is for "Gallery" Page*/
     .gallerymasonry {
-        column-count: 4;
+        column-count: 3;
         column-gap: 0;
     }
 }
