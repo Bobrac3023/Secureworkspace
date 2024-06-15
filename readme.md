@@ -57,6 +57,8 @@ Title - Taj Mahal
         2. The <nav> included a <ul> with details of each page
         3. below the <div>, under the <main>, ther is a <section> which has the hero image 
         3. It also includes the <footer> element, which has two <h2> elements nested within it ad a<nav> which defines the <ul> for social media.
+
+        
             Header:
                 1.The Header section is common across all pages. It is nested under the Body element 
                 2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
@@ -67,7 +69,8 @@ Title - Taj Mahal
                 1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
                 2.Hovering the mouse over these changes the colour to Cyan.
                 3.Flex properties applied to UL element nested under the NAV element 
-    ![navigation screenshot with hover effect](readme.doc/navigation.png)      
+    ![navigation screenshot with hover effect](readme.doc/navigation.png)   
+
             HeroImage 
                 1.The Heroimage has been clickeed by the author dueing his visit to TAJ 
                 2.Inside the hero image just below the header, there are two links ".
@@ -89,6 +92,7 @@ Title - Taj Mahal
 
     b.Information page: 
     ![Screenshot of Information Page ](readme.doc/information_page.png)
+
     
         1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
         2. The paragraph, contents created by the author explains the feelings one could experience. 
@@ -106,7 +110,8 @@ Title - Taj Mahal
     c. Gallery page : 
         1.Displays photgraphs takne by the author on his visit. 
         2. Masonry layout along with media queries was used in style sheet to ake this section responsive. 
-    ![gallery home page]()
+    ![gallery home page](readme.doc/gallery_page_screenshot.png)
+
     d. Contact Us page:
         1. This page is used to gather visitor information 
         2. A visitor can also drop images or files if they desire. 
