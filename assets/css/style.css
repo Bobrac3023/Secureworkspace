@@ -104,7 +104,7 @@ main {
     position: relative;
     color: crimson;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding-top: 40px;
     padding-right: 80px;
     font-family: cursive;
@@ -118,22 +118,23 @@ main {
 
 /* This section is for Gallery page*/
 
-.background{
-    background-color:cornflowerblue;
+.background {
+    background-color: cornflowerblue;
 
 }
+
 .gallerymasonry img {
     /* this targets the images property when viewed on mobiles*/
     width: 100%;
-     /* this makes alt text readable*/
+    /* this makes alt text readable*/
     line-height: 1em;
-   
+
 }
 
 .gallerymasonry {
     /* remove automatic line height as images are treated as text-eliminates white space between photos*/
     line-height: 0;
-    
+
 }
 
 /* This section is for FOOTER STYLING */
@@ -292,33 +293,28 @@ main {
 /* This Section is for "Contact Us" Page Styling*/
 
 .section-contact {
-    background-color:lightcyan
-    /*Creating a flex container using flexbox*/
-    display:table-column;
-    /* items display in a row on the mains axis- teh default property */
-    flex-direction: column;
-    /*wrapping our flex items to wrap into multiple lines- for small screen viewing"*/
-    #flex-wrap: wrap;
-    align-items: center;
     font-family: cursive;
-    /*flex parent property-defines alignment along the main axis*/
-    #justify-content: space-around;
-    /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
-    }
+    background-color: lightcyan;
+    /*Creating a flex container using flexbox*/
+    display: flex;
+    justify-content: center;
+}
 
 .h2headercontact {
-    /*making the child container a flex container*/
-    
-}
-.formstyler {
-    
 
+    font-family: cursive;
+    background-color: lightcyan;
+    /*Creating a flex container using flexbox*/
+    display: flex;
+    justify-content: center;
 }
 
-.div2-contact {
-    padding:20px;
-    
- }
+.div-contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 54px;
+    font-family: cursive;
+}
 
 /* Media Query for Large or Landscape Phones (576 px and up) */
 @media screen and (min-width: 576px) {
@@ -334,16 +330,18 @@ main {
 @media screen and (min-width:768px) {
     .gallerymasonry {
         column-count: 3;
+
         /*to remove gaps between photos"
         column-gap: 0;
     }
 }
 
 /* Media Query for Laptops and Desktops (992 px and up) */
-@media screen and (min-width:992px) {
-    /* This media query is for "Gallery" Page*/
-    .gallerymasonry {
-        column-count: 3;
-        column-gap: 0;
-    }
-}
+        @media screen and (min-width:992px) {
+
+            /* This media query is for "Gallery" Page*/
+            .gallerymasonry {
+                column-count: 3;
+                column-gap: 0;
+            }
+        }
