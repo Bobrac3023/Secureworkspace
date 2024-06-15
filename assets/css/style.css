@@ -120,12 +120,13 @@ main {
 .gallerymasonry img {
     /* this targets the images property when viewed on mobiles*/
     width: 100%;
-    /* this makes alt text readable*/
-
+     /* this makes alt text readable*/
+    line-height: 1em;
+   
 }
 
 .gallerymasonry {
-    /* remove automatic line height of text-eliminates white space between photos*/
+    /* remove automatic line height as images are treated as text-eliminates white space between photos*/
     line-height: 0;
 }
 
