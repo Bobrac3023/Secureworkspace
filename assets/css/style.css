@@ -301,10 +301,7 @@ main {
     /*flex parent property-defines alignment along the main axis*/
     justify-content: space-around;
     /* this makes flex items wrap onto multiple lines, from top to bottom.good for small screens*/
-
     #padding: 20px;
-
-
 }
 
 .h2headercontact {
@@ -345,7 +342,6 @@ main {
     .gallerymasonry {
         column-count: 2;
         column-gap: 0;
-
     }
 }
 
@@ -353,6 +349,7 @@ main {
 @media screen and (min-width:768px) {
     .gallerymasonry {
         column-count: 3;
+        column-gap: 0;
     }
 }
 

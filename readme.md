@@ -43,7 +43,7 @@ Title - Taj Mahal
         2. The Main element contains the header and hero image 
         2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
     Head Section 
-    ![Screenshot of main landing page with mouse hovering over the home page](readme_doc/Main Page with mouse hover over home.png) 
+    ![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/Main%20page%20with%20mouse%20hover%20over%20facebook.png) 
         1.Language chosen is US English 
         2.Meta tags "viewport" and "content" are included to make the page responsive. 
         3.Keywords and description are added in the head section for Search Engine Optimization 
@@ -72,6 +72,9 @@ Title - Taj Mahal
                 2.Inside the hero image just below the header, there are two links ".
                 3.Hovering the mouse over it changes the color to gold 
                 4."Tickle your curosity" Link, explains the architecture of the taj and has been sourced externally. 
+                readme_doc/Architecture of TAJ.png
+    ![architecture image](/readme.doc/architecture_%20of_taj.png)        
+
                 5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his expereince and thoughts.
                 6. both links open in a new tab.
 
@@ -83,7 +86,7 @@ Title - Taj Mahal
                 5.The footer is common across all pages 
                
     b.Information page: 
-    ![Screenshot of Information Page ](informationpagescreenshot.png)
+    ![Screenshot of Information Page ](/readme.doc/information_page.png)
     
         1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
         2. The paragraph, contents created by the author explains the feelings one could experience. 
@@ -95,13 +98,13 @@ Title - Taj Mahal
             II. Historical facts 
             III.How to get there 
             IV. Best time to visit ( has an external clickable link ) 
-        5. Flex properties were used 
-        
+                    5. Flex properties were used 
+    ![best time to visit section](/readme.doc/best_time_to_visit.png)   
 
     c. Gallery page : 
         1.Displays photgraphs takne by the author on his visit. 
         2. Masonry layout along with media queries was used in style sheet to ake this section responsive. 
-
+    ![gallery home page]()
     d. Contact Us page:
         1. This page is used to gather visitor information 
         2. A visitor can also drop images or files if they desire. 
