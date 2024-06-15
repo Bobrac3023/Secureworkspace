@@ -114,7 +114,7 @@ Title - Taj Mahal
 
     d. Contact Us page:
         1. This page is used to gather visitor information 
-        2. A visitor can also drop images or files if they desire. 
+        2. This page also show a live map of Taj Mahal from google maps 
 ![screenshot of forminput](readme.doc/forminput_screenshot.png)
 ![screenshot of formdata on code institute server](readme.doc/formdata_screenshot.png)
 
@@ -133,7 +133,7 @@ Title - Taj Mahal
 
 
 8. fixed bugs
-   
+   The most bugs fixed were related to CSS syting using flexbox properties and sizing screens for display of images in the gallery.
 
 8. Deployment 
     7.1 via gitpod
