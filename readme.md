@@ -26,7 +26,7 @@ Title - Taj Mahal
 3. Font family and colors.
 
         a.Google fonts used for styling. Download link below
-        ('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+        (https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap);
         b. Font-family used for styling : "Cursive", Courier New', Courier, monospace
         c. colors used for styling  :        aliceblue,bisque,brown,cyan,crimson,gold,lightyellow,aqua, magenta,lightcyan,
         
@@ -43,7 +43,7 @@ Title - Taj Mahal
         2. The Main element contains the header and hero image 
         2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
     Head Section 
-    ![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/Main%20page%20with%20mouse%20hover%20over%20facebook.png) 
+    ![Screenshot of main landing page with mouse hovering over the home page](..//Secureworkspace//readme.doc/Main%20page%20with%20mouse%20hover%20over%20facebook.png) 
         1.Language chosen is US English 
         2.Meta tags "viewport" and "content" are included to make the page responsive. 
         3.Keywords and description are added in the head section for Search Engine Optimization 
@@ -61,22 +61,22 @@ Title - Taj Mahal
                 1.The Header section is common across all pages. It is nested under the Body element 
                 2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
                 3.The header is common across all pages 
-    ![header screenshot](/readme.doc/header.png)
+    ![header screenshot](..//Secureworkspace//readme.doc/header.png)
 
              Navigation:
                 1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
                 2.Hovering the mouse over these changes the colour to Cyan.
                 3.Flex properties applied to UL element nested under the NAV element 
-    ![navigation screenshot with hover effect](/readme.doc/navigation.png)      
+    ![navigation screenshot with hover effect](..//Secureworkspace//readme.doc/navigation.png)      
             HeroImage 
                 1.The Heroimage has been clickeed by the author dueing his visit to TAJ 
                 2.Inside the hero image just below the header, there are two links ".
                 3.Hovering the mouse over it changes the color to gold 
                 4."Tickle your curosity" Link, explains the architecture of the taj and has been sourced externally. 
                 readme_doc/Architecture of TAJ.png
-    ![architecture image](/readme.doc/architecture_%20of_taj.png)        
+    ![architecture image](..//Secureworkspace//readme.doc/architecture_%20of_taj.png)        
                 5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his expereince and thoughts.
-    ![why is taj special screenshot](/readme.doc/why_is_taj_special.png)
+    ![why is taj special screenshot](..//Secureworkspace//readme.doc/why_is_taj_special.png)
                 6. both links open in a new tab.
 
             Footer 
@@ -85,10 +85,10 @@ Title - Taj Mahal
                 3.Clicking the social media icon opens in a new tab - home page or login page of that particular social media site 
                 4.Each icon has a "alt" element to cater for the visually impaired.
                 5.The footer is common across all pages 
-    ![screenshot of footer](/readme.doc/footer.png)    
+    ![screenshot of footer](..//Secureworkspace//readme.doc/footer.png)    
 
     b.Information page: 
-    ![Screenshot of Information Page ](/readme.doc/information_page.png)
+    ![Screenshot of Information Page ](..//Secureworkspace/readme.doc/information_page.png)
     
         1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
         2. The paragraph, contents created by the author explains the feelings one could experience. 
@@ -101,7 +101,7 @@ Title - Taj Mahal
             III.How to get there 
             IV. Best time to visit ( has an external clickable link ) 
                     5. Flex properties were used 
-    ![best time to visit section](/readme.doc/best_time_to_visit.png)   
+    ![best time to visit section](..//Secureworkspace/readme.doc/best_time_to_visit.png)   
 
     c. Gallery page : 
         1.Displays photgraphs takne by the author on his visit. 
@@ -120,10 +120,10 @@ Title - Taj Mahal
 
    7.1 code validation
         a.W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
-![html validation screenshot](/readme.doc/html_validation_screenshot.png)
+![html validation screenshot](..//Secureworkspace/readme.doc/html_validation_screenshot.png)
         b. CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
            readme_doc/CSS validation.png
-![css validation screenshot](/readme.doc/css_validation_screenshot.png)
+![css validation screenshot](..//Secureworkspace/readme.doc/css_validation_screenshot.png)
 
 
 8. fixed bugs
@@ -132,19 +132,19 @@ Title - Taj Mahal
 8. Deployment 
     7.1 via gitpod
         1.First a GMAIL account was created by Code Institute 
-    ![Code institute gmail account ](/readme.doc/step1_codeinst_gmail_creation.png)
+    ![Code institute gmail account ](..//Secureworkspace//readme.doc/step1_codeinst_gmail_creation.png)
         2. Authorize Code institute for gitpod 
-    ![authorize code institute](/readme.doc/authroize%20code%20institute%20in%20gitpod.png)
+    ![authorize code institute](..//Secureworkspace//readme.doc/authroize%20code%20institute%20in%20gitpod.png)
          3.Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
             1. Git add .
             2. Git commit -m "meaninful comment" 
             3. Git push - to push changes to Github 
 
    7.2 via github pages
-    ![Screenshot of GITHUB - to create an external link for the website](/readme.doc/deployment_screenshot.png)
+    ![Screenshot of GITHUB - to create an external link for the website](..//Secureworkspace//readme.doc/deployment_screenshot.png)
     ![Github setting for Secureworkspace external link deployment ](/readme.doc/github_screenshot.png)
-    ![Github deployement page ](/readme.doc/github_setting_screenshot.png)
-    ![Secureworkspace repository](/readme.doc/secureworkspace_repository.png)
+    ![Github deployement page ](..//Secureworkspace//readme.doc/github_setting_screenshot.png)
+    ![Secureworkspace repository](../Secureworkspace//readme.doc/secureworkspace_repository.png)
 
 9. Credits
 
