@@ -34,9 +34,9 @@ Visitors to the website can leave their details to get in touch with the author 
 - Devices with different viewports for testing the responsiveness - **Galaxy A54, iPhone 14 Pro, Galaxy A25, Asus AMD Ryzen7 4800H with 
   Radeon Graphics**.
 
-## Website Page and feature Description 
+## Website pages and feature description 
 
-### Home page (landing page) 
+### Home Page (landing page) 
 - This page is divided into **three sections**- ***Head,Body and Footer***.
 - The **Main** element contains the ***header and hero image***.
 - The **Navigation bar** in the landing page includes links to **three other pages**- ***The Information, Gallery and Contact Us page***.
@@ -52,7 +52,7 @@ Visitors to the website can leave their details to get in touch with the author 
 - The favicon to be displayed within the browser tabs and bookmarks bar is added for three different screen sizes.
 - The title **"Taj Mahal"** is defined here.
 
-### BODY SECTION.
+### Body Section.
 
 - The body element contains ***"div"*** element nested within it are ***two child elements -"a" and "nav"***.
 - The ***"nav"*** includes a ***"ul"*** with details of each page.
@@ -63,9 +63,10 @@ Visitors to the website can leave their details to get in touch with the author 
 - The Header section is common across all pages. It is nested under the Body element.
 - The Header is created using an ***H1 element*** with the content ***"Taj Mahal- An Eternal Calling"***.
 - The header is common across all pages.
-- 
-  #### Header Screenshot
-- ![header screenshot](readme.doc/header.png)
+  
+#### Header Screenshot.
+
+![header screenshot](readme.doc/header.png)
 
 ### Navigation.  
 
@@ -73,11 +74,11 @@ Visitors to the website can leave their details to get in touch with the author 
 - **Hovering** the mouse over these changes the colour to **Cyan**.
 - Flex properties applied to UL element nested under the NAV element
   
-#### Navigation Screenshot with hover effect
+#### Navigation Screenshot with hover effect.
 
-- ![navigation screenshot with hover effect](readme.doc/navigation.png)   
+![navigation screenshot with hover effect](readme.doc/navigation.png)   
 
- ### Hero Image  
+ ### Hero Image.  
  - The ***Heroimage*** was clicked by the author when he visited the TAJ.
  - Inside the hero image just below the header, there are two links.
  - Hovering the mouse over it ***changes the color to gold***.
@@ -85,26 +86,27 @@ Visitors to the website can leave their details to get in touch with the author 
  - **Why is the Taj Special to me** link outlines users experiecne and throughts.
  - Both links open in a new tabs.
 
- #### Architecture of TAJ.png
+ #### Architecture of TAJ.png.
  
  ![architecture image](readme.doc/architecture_%20of_taj.png)        
  
- #### "Why is Taj so special to me" is an article published by rediff.com shring the authors experience.
+ #### "Why is Taj so special to me" is an article published by rediff.com sharing the authors experience.
  
  ![why is taj special screenshot](readme.doc/why_is_taj_special.png)
  
- ### Footer 
+ ### Footer. 
+ 
  - Displays the authorship of the website, copyright information and the social media.
- - Hovering mouse over the icons changes the color to "cyan".
- - Clicking the social media icon opens in a new tab - home page or login page of that particular social media site.
- - Each icon has a "alt" element to cater for the visually impaired.
+ - Hovering mouse over the icons changes the color to **"cyan"**.
+ - Clicking the social media icon opens in a new tab - ***home page or login page of that particular social media site***.
+ - Each icon has a **"alt"** element to cater for the visually impaired.
  - The footer is common across all pages.
    
-#### Screenshot of the Footer
+#### Screenshot of the Footer.
 
 ![screenshot of footer](readme.doc/footer.png).
 
-### Information page:
+### Information Page.
 
 #### Screenshot of the information page.
 
@@ -112,7 +114,7 @@ Visitors to the website can leave their details to get in touch with the author 
 
 - The information page has header **"h2"** titled" **!!! Explore the modern wonder of the world!!!**,followed by a short paragraph.
 - The paragraph, contents created by the author explains the feelings one could experience.
-- These feeling were experienced by the author on his visit.
+- These feelings were experienced by the author on his visit.
 - It also provides some information of past visitors and things to do.
 - Four sections on this page provide additonal information.
 - These sections are.
@@ -126,17 +128,20 @@ Visitors to the website can leave their details to get in touch with the author 
 
 ![best time to visit section](readme.doc/best_time_to_visit.png)   
 
-### Gallery page. 
-- Displays photgraphs taken by the author on his visit.
-- Masonry layout along with media queries was used in style sheet to make this section responsive.
+### Gallery Page.
+
+- Displays photographs taken by the author on his visit.
+- **Masonry layout** along with media queries was used in style sheet to make this section responsive.
 
 #### Screenshot of Gallery home page.
 
 ![gallery home page](readme.doc/gallery_page_screenshot.png)
 
-### Contact Us page.  
-- This page is used to gather visitor information.
-- This page also show a live map of Taj Mahal from google maps.
+### Contact Us Page.
+
+- This page is used to gather **visitor information**.
+- This page also show a **live map** of Taj Mahal from google maps.
+  
 #### Screenshots of contact page.
 
 ![screenshot of forminput](readme.doc/forminput_screenshot.png)
@@ -147,17 +152,20 @@ Visitors to the website can leave their details to get in touch with the author 
 
 - True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
 - The author plans to add a 3D video section, glowing features and more changes to the sytling and logic using Javascript.
+  
 ## Testing 
+
 ### Code validation.
 
-- W3school HTML validator was used to test the code at regular intervals.
-- ![html validator](https://validator.w3.org/)
+- W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
   
 ![html_validation_screenshot](readme.doc/html_validation_screenshot.png)
 
-- CSS validation service at []https://jigsaw.w3.org/css-validator/] was used to test the "style.css" sheet.
 
-![readme_doc/CSS validation.png]
+#### CSS validation.png.
+
+- CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
+  
 ![css validation screenshot](readme.doc/css_validation_screenshot.png)
 
 ## Fixed bugs.
@@ -167,13 +175,16 @@ Visitors to the website can leave their details to get in touch with the author 
 ## Deployment 
 
 ### via gitpod  
-- First a GMAIL account was created by Code Institute 
+
+- First a GMAIL account was created by Code Institute
+   
   ![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png).
 
-- Authorize Code institute for gitpod 
+- Authorize Code institute for gitpod
+  
   ![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png).
   
-- Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands - Git add . Git commit -m "meaninful comment". Git push - to push changes to Github .
+- Every change post ***additon/modification/alteration*** of the code in gitpod.io was added to the Github respository using the fllowing three ccommands - **Git add . Git commit -m "meaninful comment". Git push - to push changes to Github** .
 
  ### via github pages
  
