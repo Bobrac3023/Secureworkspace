@@ -23,101 +23,124 @@ Visitors to the website can leave their details to get in touch with the author 
 - **"Hover"** property used to hightlight pages on navigation bar, social media icons and **"tickle your curosity"** link on landing page.
 
 ## Font family and colors.
-
-        a.Google fonts used for styling. Download link below
-        (https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap);
-        b. Font-family used for styling : "Cursive", Courier New', Courier, monospace
-        c. colors used for styling  :        aliceblue,bisque,brown,cyan,crimson,gold,lightyellow,aqua, magenta,lightcyan,
+- Google fonts used for styling. Download link below
+- [https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap]  
+- Font-family used for styling : **"Cursive", Courier New', Courier, monospace**.
+- Colors used for styling: **aliceblue,bisque,brown,cyan,crimson,gold,lightyellow,aqua, magenta,lightcyan**
         
-4. Technology used in development and testing-: 
-        1.Google Chrome as the Browser.
-        2.Cloud-based platform :gitpod.io and github for designing and hosting the website
-        3.Devices with different viewports for testing the responsiveness - Galaxy A54, iPhone 14 Pro, Galaxy A25, Asus AMD Ryzen7 4800H with 
-           Radeon Graphics    
-    
-5. Website Page and feature Description 
-    a.Home page ( landing page) :
+## Technology used in development and testing.
+- **Google Chrome** as the Browser.
+- Cloud-based platform **gitpod.io** and **github** for designing and hosting the website.
+- Devices with different viewports for testing the responsiveness - **Galaxy A54, iPhone 14 Pro, Galaxy A25, Asus AMD Ryzen7 4800H with 
+  Radeon Graphics**.
 
-        1.This page is divided into three sections, Head, Body and Footer. 
-        2. The Main element contains the header and hero image 
-        2. The Navigation bar in the landing page includes links to three other pages- The Information, Gallery and Contact Us page.
-    Head Section 
-    ![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/home_page_with_mouse_hover.png) 
-        1.Language chosen is US English 
-        2.Meta tags "viewport" and "content" are included to make the page responsive. 
-        3.Keywords and description are added in the head section for Search Engine Optimization 
-        4.The CSS stylesheet which is an external file is linked here in the head section 
-        5.The favicon to be displayed within the browser tabs and bookmarks bar is added for three different screen sizes.
-        6. The title "Taj Mahal " is defined here.
+## Website Page and feature Description 
 
-    BODY SECTION  
-        
-        1.The body element contains <div> element, nested within it , two child elements "<a>" and <nav>.
-        2. The <nav> included a <ul> with details of each page
-        3. below the <div>, under the <main>, ther is a <section> which has the hero image 
-        3. It also includes the <footer> element, which has two <h2> elements nested within it ad a<nav> which defines the <ul> for social media.
+### Home page (landing page) 
+- This page is divided into **three sections**- ***Head,Body and Footer***.
+- The **Main** element contains the ***header and hero image***.
+- The **Navigation bar** in the landing page includes links to **three other pages**- ***The Information, Gallery and Contact Us page***.
+  
+ ### Head Section 
+ #### Screenshot of main landing page
+-![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/home_page_with_mouse_hover.png).
 
+- Language chosen is ***US English.***
+- Meta tags ***"viewport" and "content"*** are included to make the page responsive.
+- ***Keywords*** and ***description*** are added in the head section for **Search Engine Optimization**.
+- The CSS stylesheet which is an external file is **linked** here in the head section.
+- The favicon to be displayed within the browser tabs and bookmarks bar is added for three different screen sizes.
+- The title **"Taj Mahal"** is defined here.
 
-            Header:
-                1.The Header section is common across all pages. It is nested under the Body element 
-                2.The Header is created using an H1 element with the content" Taj Mahal- An Eternal Calling"
-                3.The header is common across all pages 
-    ![header screenshot](readme.doc/header.png)
+### BODY SECTION.
 
-             Navigation:
-                1.Contains a unordered list to define the three pages-Home, Information, Gallery and Contact Us
-                2.Hovering the mouse over these changes the colour to Cyan.
-                3.Flex properties applied to UL element nested under the NAV element 
-    ![navigation screenshot with hover effect](readme.doc/navigation.png)   
+- The body element contains ***"div"*** element nested within it are ***two child elements -"a" and "nav"***.
+- The ***"nav"*** includes a ***"ul"*** with details of each page.
+- The ***Hero*** image is inside a section under the ***main*** element.
+- It also includes the ***footer*** element, which has ***two "h2"*** elements nested within it and a ***"nav"*** which defines the ***"ul"*** for social media.
+  
+### Header. 
+- The Header section is common across all pages. It is nested under the Body element.
+- The Header is created using an ***H1 element*** with the content ***"Taj Mahal- An Eternal Calling"***.
+- The header is common across all pages.
+- 
+  #### Header Screenshot
+- ![header screenshot](readme.doc/header.png)
 
-            HeroImage 
-                1.The Heroimage has been clickeed by the author dueing his visit to TAJ 
-                2.Inside the hero image just below the header, there are two links ".
-                3.Hovering the mouse over it changes the color to gold 
-                4."Tickle your curosity" Link, explains the architecture of the taj and has been sourced externally. 
-                readme_doc/Architecture of TAJ.png
-    ![architecture image](readme.doc/architecture_%20of_taj.png)        
-                5."Why is Taj so special to me" is an article published by rediff.com where the author has shared his experience and thoughts.
-    ![why is taj special screenshot](readme.doc/why_is_taj_special.png)
-                6. both links open in a new tab.
+### Navigation.  
 
-            Footer 
-                1.Displays the authorship of the website, copyright information and the social media icons
-                2.Hovering mouse over the icons changes the color to "cyan"
-                3.Clicking the social media icon opens in a new tab - home page or login page of that particular social media site 
-                4.Each icon has a "alt" element to cater for the visually impaired.
-                5.The footer is common across all pages 
-    ![screenshot of footer](readme.doc/footer.png)    
+- Contains a unordered list to define the three pages-***Home,Information Gallery and Contact Us***.
+- **Hovering** the mouse over these changes the colour to **Cyan**.
+- Flex properties applied to UL element nested under the NAV element
+  
+#### Navigation Screenshot with hover effect
 
-    b.Information page: 
-    ![Screenshot of Information Page ](readme.doc/information_page.png)
+- ![navigation screenshot with hover effect](readme.doc/navigation.png)   
 
-    
-        1.The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph. 
-        2. The paragraph, contents created by the author explains the feelings one could experience. 
-           These feeling were experienced by the author on his visit . 
-           It also provides some information of past visitors and things to do..  
-        3. Four sections on this page provide additonal information.
-        4. These sections are  
-            I. Reasons to visit the "Wow" factor 
-            II. Historical facts 
-            III.How to get there 
-            IV. Best time to visit ( has an external clickable link ) 
-                    5. Flex properties were used 
-    ![best time to visit section](readme.doc/best_time_to_visit.png)   
+ ### Hero Image  
+ - The ***Heroimage*** was clicked by the author when he visited the TAJ.
+ - Inside the hero image just below the header, there are two links.
+ - Hovering the mouse over it ***changes the color to gold***.
+ - **"Tickle your curosity"** Link, explains the architecture of the taj and has been sourced externally.
+ - Both links open in a new tabs.
 
-    c. Gallery page : 
-        1.Displays photgraphs taken by the author on his visit. 
-        2. Masonry layout along with media queries was used in style sheet to make this section responsive. 
-    ![gallery home page](readme.doc/gallery_page_screenshot.png)
+ #### Architecture of TAJ.png
+ 
+ ![architecture image](readme.doc/architecture_%20of_taj.png)        
+ 
+ #### "Why is Taj so special to me" is an article published by rediff.com shring the authors experience.
+ 
+ ![why is taj special screenshot](readme.doc/why_is_taj_special.png)
+ 
+ ### Footer 
+ - Displays the authorship of the website, copyright information and the social media.
+ - Hovering mouse over the icons changes the color to "cyan".
+ - Clicking the social media icon opens in a new tab - home page or login page of that particular social media site.
+ - Each icon has a "alt" element to cater for the visually impaired.
+ - The footer is common across all pages.
+ - 
+#### Screenshot of the Footer
+![screenshot of footer](readme.doc/footer.png).
 
-    d. Contact Us page:
-        1. This page is used to gather visitor information 
-        2. This page also show a live map of Taj Mahal from google maps 
+### Information page:
+
+#### Screenshot of the information page.
+
+![Screenshot of Information Page ](readme.doc/information_page.png).  
+
+- The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph.
+- The paragraph, contents created by the author explains the feelings one could experience.
+- These feeling were experienced by the author on his visit.
+- It also provides some information of past visitors and things to do.
+- Four sections on this page provide additonal information.
+- These sections are.
+-   Reasons to visit the "Wow" factor.
+-   Hstorical facts.
+-   How to get there.
+-   Best time to visit***(has an external clickable link)***.
+- Flex properties were used.
+#### Screenshot of "Best Time to visit"
+
+![best time to visit section](readme.doc/best_time_to_visit.png)   
+
+### Gallery page. 
+- Displays photgraphs taken by the author on his visit.
+- Masonry layout along with media queries was used in style sheet to make this section responsive.
+
+#### Screenshot of Gallery home page.
+
+![gallery home page](readme.doc/gallery_page_screenshot.png)
+
+### Contact Us page.  
+- This page is used to gather visitor information.
+- This page also show a live map of Taj Mahal from google maps.
+#### Screenshots of contact page.
+
 ![screenshot of forminput](readme.doc/forminput_screenshot.png)
+
 ![screenshot of formdata on code institute server](readme.doc/formdata_screenshot.png)
 
-6. Future Features: 
+## Future Features: 
     True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
     The author plans to add a 3D video section, glowing features and more changes to the sytling and logic using Javascript.
     
