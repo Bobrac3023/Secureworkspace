@@ -1,29 +1,28 @@
-Title - Taj Mahal 
+## Title - Taj Mahal 
 
-1. Purpose of the project. 
-
-        "Taj Mahal - An Eternal calling" website is a "one stop" source of information that caters to users of all ages and varied interests across fields. It provides first hand information based on authors "TWO" visits to the Taj Mahal. It is supported by pictures clicked by the author and includes a "link" to a published artcile articulating the authors thoughts.
-        As an example, a tourist may find useful information pertaining to "visit times" and "how to get there". Likewise anyone with interest in architecture can find useful information under "tickle your curosity" link on the landing page.Furthermore, details on the "information page" can be used to to arrive at decisons on the reasons to to visit the Taj. 
-        Visitors to the website can leave their details to get in touch with the author or upload their own experiences via the "upload files and image" section under the "Contact us" page. 
+## Purpose of the project. 
+**"Taj Mahal - An Eternal calling"** website is a "one stop" source of information that caters to users of all ages and varied interests across fields. It provides first hand information based on authors ***"TWO"*** visits to the Taj Mahal. It is supported by pictures clicked by the author and includes a "link" to a published artcile articulating the authors thoughts.
+As an example, a tourist may find useful information pertaining to ***"visit times"*** and ***"how to get there"***. Likewise anyone with interest in architecture can find useful information under ***"tickle your curosity"*** link on the landing page.Furthermore, details on the ***"information page"*** can be used to to arrive at decisons on the reasons to to visit the Taj. 
+Visitors to the website can leave their details to get in touch with the author or upload their own experiences via the ***"upload files*** and image" section under the ***"Contact us" page***. 
  
-2. Features.
-        a.The website is designed using the "Mobile First" Responsive approach using a structured layout and "meta" tags.
-        b.The website has four pages including the landing page.  "Home", "Information", "Gallery" and "Contact Us".
-        c.The header includes the title of the website " Taj Mahal- An Eternal Calling and is common across all pages 
-        d.The footer inlcudes the "copyright" and " author" details and icons for social media
-        e.The chocie of foreground and background colors have the right contrast providing a rich user experience .
-        d. All images, inclduing the hero image has a "alt " element to cater for the visually impaired.
-        f. All images in the gallery have the right resolution when viewed across screens with different viewports.
-        g. All External links open in a seperate tab -" tickle your curosity" on the home page and "best time to visit" section under the 
-           information page  
-        h. CSS media queires used where appropriate for different screen sizes.
-        i. Masonry layout used to align images in the "Gallery" page.
-        j. Relative paths are used for refering to folders and files.
-        l. Favicon is  included to be displayed within the browser tabs and bookmarks bar is added for three different 
-        j. "Keywords" and "Description" incldued for search engine optimization. 
-        k. "Hover" property used to hightlight pages on navigation bar, social media icons and "tickle your curosity" link on landing page.
+ ## Features.
+- The website is designed using the **"Mobile First"** Responsive approach using a structured layout and "meta" tags.  
+- The website has four pages including the landing page.  **"Home", "Information", "Gallery" and "Contact Us"**.  
+- The header includes the title of the website **" Taj Mahal- An Eternal Calling** and is common across all pages   
+- The footer inlcudes the **"copyright"** and **"author"** details and icons for social media  
+- The chocie of foreground and background colors have the right contrast providing a rich user experience .  
+- All images, inclduing the hero image has a **"alt"** element to cater for the visually impaired.    
+- All images in the gallery have the right resolution when viewed across screens with different viewports.  
+- All External links open in a seperate tab **-"tickle your curosity"** on the home page and **"best time to visit"** section under the 
+ information page.  
+- CSS media queires used where appropriate for different screen sizes.  
+- Masonry layout used to align images in the **"Gallery"** page.  
+- Relative paths are used for refering to folders and files.  
+- Favicon is  included to be displayed within the browser tabs and bookmarks bar is added for three different.  
+- **"Keywords"** and **"Description"** incldued for search engine optimization.  
+- **"Hover"** property used to hightlight pages on navigation bar, social media icons and **"tickle your curosity"** link on landing page.
 
-3. Font family and colors.
+## Font family and colors.
 
         a.Google fonts used for styling. Download link below
         (https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap);
