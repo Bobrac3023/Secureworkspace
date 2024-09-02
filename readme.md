@@ -82,6 +82,7 @@ Visitors to the website can leave their details to get in touch with the author 
  - Inside the hero image just below the header, there are two links.
  - Hovering the mouse over it ***changes the color to gold***.
  - **"Tickle your curosity"** Link, explains the architecture of the taj and has been sourced externally.
+ - **Why is the Taj Special to me** link outlines users experiecne and throughts.
  - Both links open in a new tabs.
 
  #### Architecture of TAJ.png
@@ -98,8 +99,9 @@ Visitors to the website can leave their details to get in touch with the author 
  - Clicking the social media icon opens in a new tab - home page or login page of that particular social media site.
  - Each icon has a "alt" element to cater for the visually impaired.
  - The footer is common across all pages.
- - 
+   
 #### Screenshot of the Footer
+
 ![screenshot of footer](readme.doc/footer.png).
 
 ### Information page:
@@ -108,17 +110,18 @@ Visitors to the website can leave their details to get in touch with the author 
 
 ![Screenshot of Information Page ](readme.doc/information_page.png).  
 
-- The information page has header <h2> titled" !!! Explore the modern wonder of the world!!!, followed by a short paragraph.
+- The information page has header **"h2"** titled" **!!! Explore the modern wonder of the world!!!**,followed by a short paragraph.
 - The paragraph, contents created by the author explains the feelings one could experience.
 - These feeling were experienced by the author on his visit.
 - It also provides some information of past visitors and things to do.
 - Four sections on this page provide additonal information.
 - These sections are.
--   Reasons to visit the "Wow" factor.
--   Hstorical facts.
--   How to get there.
--   Best time to visit***(has an external clickable link)***.
+-  Reasons to visit the **"Wow"** factor.
+-  Hstorical facts.
+-  How to get there.
+-  Best time to visit***(has an external clickable link)***.
 - Flex properties were used.
+  
 #### Screenshot of "Best Time to visit"
 
 ![best time to visit section](readme.doc/best_time_to_visit.png)   
@@ -141,67 +144,71 @@ Visitors to the website can leave their details to get in touch with the author 
 ![screenshot of formdata on code institute server](readme.doc/formdata_screenshot.png)
 
 ## Future Features: 
-    True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
-    The author plans to add a 3D video section, glowing features and more changes to the sytling and logic using Javascript.
-    
-7. Testing 
 
-   7.1 code validation
-        a.W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
-![html validation screenshot](readme.doc/html_validation_screenshot.png)
-        b. CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
-           readme_doc/CSS validation.png
+- True to responsive coding priciples the website also needs to be responsive to future requirements and enhancements.
+- The author plans to add a 3D video section, glowing features and more changes to the sytling and logic using Javascript.
+## Testing 
+### Code validation.
+
+- W3school HTML validator was used to test the code at regular intervals.
+- ![html validator](https://validator.w3.org/)
+  
+![html_validation_screenshot](readme.doc/html_validation_screenshot.png)
+
+- CSS validation service at []https://jigsaw.w3.org/css-validator/] was used to test the "style.css" sheet.
+
+![readme_doc/CSS validation.png]
 ![css validation screenshot](readme.doc/css_validation_screenshot.png)
 
+## Fixed bugs.
 
-8. fixed bugs
-   The most bugs fixed were related to CSS styling using flexbox properties and sizing screens for display of images in the gallery.
+- The most bugs fixed were related to CSS styling using flexbox properties and sizing screens for display of images in the gallery.
 
-8. Deployment 
+## Deployment 
 
-    7.1 via gitpod
-        1.First a GMAIL account was created by Code Institute 
-    ![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png)
-        2. Authorize Code institute for gitpod 
-    ![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png)
-         3.Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands 
-            1. Git add .
-            2. Git commit -m "meaninful comment" 
-            3. Git push - to push changes to Github 
+### via gitpod  
+- First a GMAIL account was created by Code Institute 
+  ![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png).
 
-   7.2 via github pages
-    ![Screenshot of GITHUB - to create an external link for the website](readme.doc/deployment_screenshot.png)
-    ![Github setting for Secureworkspace external link deployment ](readme.doc/github_screenshot.png)
-    ![Github deployement page ](readme.doc/github_setting_screenshot.png)
-    ![Secureworkspace repository](readme.doc/secureworkspace_repository.png)
+- Authorize Code institute for gitpod 
+  ![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png).
+  
+- Every change post additon/modification/alteration of the code in gitpod.io was added to the Github respository using the fllowing three ccommands - Git add . Git commit -m "meaninful comment". Git push - to push changes to Github .
 
-9. Credits
+ ### via github pages
+ 
+ ![Screenshot of GITHUB - to create an external link for the website](readme.doc/deployment_screenshot.png)
+ 
+ ![Github setting for Secureworkspace external link deployment ](readme.doc/github_screenshot.png)
+ 
+ ![Github deployement page ](readme.doc/github_setting_screenshot.png)
+ 
+ ![Secureworkspace repository](readme.doc/secureworkspace_repository.png)
 
-    a.Referenced sites 
+## Credits
 
-        1. Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube 
-        2. An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art.
-        3. Favicon code was referenced from the Code Institute.
-        4. Masonry code was referenced from the code institute.  
+### Referenced sites.
 
-    b.Images
+- Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube.
+- An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art.
+- Favicon code was referenced from the Code Institute.
+- Masonry code was referenced from the code institute.  
 
-        1. The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
+ ### Images 
+ - The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
 
-
-    c.Understanding key concepts.
-
-        1. Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here: 
-         https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
-        2. Controlling ratios of flex items along the main axis- This is the guide I suggest users to read next. 
-        https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis
-         3. A Complete Guide to Flexbox : This is the a ready reference recokner to be kept handy while coding 
-        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-        4. Flex Box from Code Institute https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-        5. The Box Model Introduction part 2 - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/3ec01463d1ce4d82842b74a5706925d3/
-        6. Httml Color Codes : https://html-color.codes/
-        7. Looking for a specific device’s viewport size? https://viewportsizer.com/devices/
-        8. ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
+### Understanding key concepts.  
+- Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here:
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox.
+- Controlling ratios of flex items along the main axis- This is the guide I suggest users to read next.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis.
+- A Complete Guide to Flexbox : This is the a ready reference recokner to be kept handy while coding.
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
+- Flex Box from Code Institute https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
+- The Box Model Introduction part 2 - https://learn.codeinstitute.net/courses/course v1:CodeInstitute+LRR101+2/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/3ec01463d1ce4d82842b74a5706925d3/.
+- Httml Color Codes : https://html-color.codes/.
+- Looking for a specific device’s viewport size? https://viewportsizer.com/devices/.
+- ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
 
         
 
