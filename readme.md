@@ -23,8 +23,8 @@ Visitors to the website can leave their details to get in touch with the author 
 - **"Hover"** property used to hightlight pages on navigation bar, social media icons and **"tickle your curosity"** link on landing page.
 
 ## Font family and colors.
-- Google fonts used for styling. Download link below
-- [https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap]  
+- Google fonts used for styling. Download link:
+  <https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap>  
 - Font-family used for styling : **"Cursive", Courier New', Courier, monospace**.
 - Colors used for styling: **aliceblue,bisque,brown,cyan,crimson,gold,lightyellow,aqua, magenta,lightcyan**
         
@@ -118,10 +118,10 @@ Visitors to the website can leave their details to get in touch with the author 
 - It also provides some information of past visitors and things to do.
 - Four sections on this page provide additonal information.
 - These sections are.
--  Reasons to visit the **"Wow"** factor.
--  Hstorical facts.
--  How to get there.
--  Best time to visit***(has an external clickable link)***.
+  1. Reasons to visit the **"Wow"** factor.
+  2. Historical facts.
+  3. How to get there.
+  4. Best time to visit***(has an external clickable link)***.
 - Flex properties were used.
   
 #### Screenshot of "Best Time to visit"
@@ -178,23 +178,23 @@ Visitors to the website can leave their details to get in touch with the author 
 
 - First a GMAIL account was created by Code Institute
    
-  ![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png).
+![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png).
 
 - Authorize Code institute for gitpod
   
-  ![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png).
+![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png).
   
 - Every change post ***additon/modification/alteration*** of the code in gitpod.io was added to the Github respository using the fllowing three ccommands - **Git add . Git commit -m "meaninful comment". Git push - to push changes to Github** .
 
- ### via github pages
+### via github pages
  
- ![Screenshot of GITHUB - to create an external link for the website](readme.doc/deployment_screenshot.png)
+![Screenshot of GITHUB - to create an external link for the website](readme.doc/deployment_screenshot.png)
  
- ![Github setting for Secureworkspace external link deployment ](readme.doc/github_screenshot.png)
+![Github setting for Secureworkspace external link deployment ](readme.doc/github_screenshot.png)
  
- ![Github deployement page ](readme.doc/github_setting_screenshot.png)
+![Github deployement page ](readme.doc/github_setting_screenshot.png)
  
- ![Secureworkspace repository](readme.doc/secureworkspace_repository.png)
+![Secureworkspace repository](readme.doc/secureworkspace_repository.png)
 
 ## Credits
 
@@ -210,16 +210,16 @@ Visitors to the website can leave their details to get in touch with the author 
 
 ### Understanding key concepts.  
 - Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here:
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox.
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox.>
 - Controlling ratios of flex items along the main axis- This is the guide I suggest users to read next.
-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis.
+  <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis.>
 - A Complete Guide to Flexbox : This is the a ready reference recokner to be kept handy while coding.
-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
-- Flex Box from Code Institute https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
-- The Box Model Introduction part 2 - https://learn.codeinstitute.net/courses/course v1:CodeInstitute+LRR101+2/courseware/b4e5b2c91d0a4ee3bb24fac71811b23f/3ec01463d1ce4d82842b74a5706925d3/.
-- Httml Color Codes : https://html-color.codes/.
-- Looking for a specific device’s viewport size? https://viewportsizer.com/devices/.
-- ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? https://www.fhoke.com/em-vs-rem-vs-px/
+  <https://css-tricks.com/snippets/css/a-guide-to-flexbox/.>
+- Flex Box from Code Institute <https://css-tricks.com/snippets/css/a-guide-to-flexbox/.>
+- The Box Model Introduction part 2 - <https://learn.codeinstitute.net/login?next=/dashboard/>
+- Httml Color Codes : <https://html-color.codes/.>
+- Looking for a specific device’s viewport size? <https://viewportsizer.com/devices/.>
+- ULTIMATE GUIDE: EM VS REM VS PX WHICH IS BETTER & WHY? <https://www.fhoke.com/em-vs-rem-vs-px/>
 
         
 
