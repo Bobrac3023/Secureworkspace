@@ -329,6 +329,7 @@ main {
 @media screen and (min-width:768px) {
     .gallerymasonry {
         column-count: 3;
+
         /*to remove gaps between photos"
         column-gap: 0;
     }
