@@ -157,16 +157,29 @@ Visitors to the website can leave their details to get in touch with the author 
 
 ### Code validation.
 
-- W3school HTML validator was used to test the code at regular intervals https://validator.w3.org/
-  
-![html_validation_screenshot](readme.doc/html_validation_screenshot.png)
+- W3school HTML validator was used to test the code. <https://validator.w3.org/>
 
+#### Home Page validation result 
+  
+![index_page_validator](readme.doc/index_page_validator.png)
+
+#### Information Page validation result 
+
+![information_page_html_validator](readme.doc/information_page_html_validator.png)
+
+#### Gallery page validation result 
+
+![gallery_page_html_validation](readme.doc/gallery_page_html_validation.png)
+
+#### Contact_us page validation result 
+
+![contact_us_validator](readme.doc/contact_us_validator.png)
 
 #### CSS validation.png.
 
-- CSS validation service at https://jigsaw.w3.org/css-validator/ was used to test the "style.css" sheet.
+- CSS validation service at <https://jigsaw.w3.org/css-validator/> was used to test the "style.css" sheet.
   
-![css validation screenshot](readme.doc/css_validation_screenshot.png)
+![style_css_validation](readme.doc/style_css_validation.png)
 
 ## Fixed bugs.
 
