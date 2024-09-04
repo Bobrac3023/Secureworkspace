@@ -49,7 +49,7 @@ Visitors to the website can leave their details to get in touch with the author 
 - Meta tags ***"viewport" and "content"*** are included to make the page responsive.
 - ***Keywords*** and ***description*** are added in the head section for **Search Engine Optimization**.
 - The CSS stylesheet which is an external file is **linked** here in the head section.
-- The favicon to be displayed within the browser tabs and bookmarks bar is added for three different screen sizes.
+- The favicon to be displayed within the browser tabs and bookmarks bar is added for ***three different screen sizes***.
 - The title **"Taj Mahal"** is defined here.
 
 ### Body Section.
@@ -60,9 +60,9 @@ Visitors to the website can leave their details to get in touch with the author 
 - It also includes the ***footer*** element, which has ***two "h2"*** elements nested within it and a ***"nav"*** which defines the ***"ul"*** for social media.
   
 ### Header. 
-- The Header section is common across all pages. It is nested under the Body element.
+- The Header section is nested under the Body element.
 - The Header is created using an ***H1 element*** with the content ***"Taj Mahal- An Eternal Calling"***.
-- The header is common across all pages.
+- The header is **common** across all pages.
   
 #### Header Screenshot.
 
@@ -84,7 +84,7 @@ Visitors to the website can leave their details to get in touch with the author 
  - Hovering the mouse over it ***changes the color to gold***.
  - **"Tickle your curosity"** Link, explains the architecture of the taj and has been sourced externally.
  - **Why is the Taj Special to me** link outlines users experiecne and throughts.
- - Both links open in a new tabs.
+ - **Both** links open in a new tabs.
 
  #### Architecture of TAJ.png.
  
@@ -100,11 +100,11 @@ Visitors to the website can leave their details to get in touch with the author 
  - Hovering mouse over the icons changes the color to **"cyan"**.
  - Clicking the social media icon opens in a new tab - ***home page or login page of that particular social media site***.
  - Each icon has a **"alt"** element to cater for the visually impaired.
- - The footer is common across all pages.
+ - The footer is **common** across all pages.
    
 #### Screenshot of the Footer.
 
-![screenshot of footer](readme.doc/footer.png).
+![screenshot of footer](readme.doc/footer.png)
 
 ### Information Page.
 
@@ -140,7 +140,7 @@ Visitors to the website can leave their details to get in touch with the author 
 ### Contact Us Page.
 
 - This page is used to gather **visitor information**.
-- This page also show a **live map** of Taj Mahal from google maps.
+- This page also show a **live map** of Taj Mahal from **google maps.**
   
 #### Screenshots of contact page.
 
@@ -191,11 +191,11 @@ Visitors to the website can leave their details to get in touch with the author 
 
 - First a GMAIL account was created by Code Institute
    
-![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png).
+![Code institute gmail account ](readme.doc/step1_codeinst_gmail_creation.png)
 
 - Authorize Code institute for gitpod
   
-![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png).
+![authorize code institute](readme.doc/authroize%20code%20institute%20in%20gitpod.png)
   
 - Every change post ***additon/modification/alteration*** of the code in gitpod.io was added to the Github respository using the fllowing three ccommands - **Git add . Git commit -m "meaninful comment". Git push - to push changes to Github** .
 
@@ -213,13 +213,13 @@ Visitors to the website can leave their details to get in touch with the author 
 
 ### Referenced sites.
 
-- Fontawesome.com website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube.
-- An image "architecture of the Taj" was referenced from an external website  https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art.
-- Favicon code was referenced from the Code Institute.
-- Masonry code was referenced from the code institute.  
+- **Fontawesome.com** website was used to download free fonts for the social media icons- Facebook, Twitter, Instagram and Youtube.
+- An image **"architecture of the Taj"** was referenced from an external website <https://www.artefactindia.com/Taj-Mahal-and-its-marble-inlay-art>
+- **Favicon code** was referenced from the Code Institute.
+- **Masonry code** was referenced from the code institute.  
 
  ### Images 
- - The images used in this website were clicked by the author and hence copyright and ownership resides with the author.
+ - The images used in this website were clicked by the author and hence ***copyright and ownership*** resides with the author.
 
 ### Understanding key concepts.  
 - Basic concepts of flexbox - An excellent guide from Mozilla.org  and can be accessed here:
