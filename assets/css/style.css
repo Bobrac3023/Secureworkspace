@@ -309,7 +309,7 @@ main {
 }
 
 .div-contact {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 54px;
@@ -329,21 +329,10 @@ main {
 }
 
 /* Media Query for Tablets and Larger Devices (768 px and up) */
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .gallerymasonry {
         column-count: 3;
-
-        /*to remove gaps between photos"
+        /*to remove gaps between photos*/
         column-gap: 0;
     }
 }
-
-/* Media Query for Laptops and Desktops (992 px and up) */
-        @media screen and (min-width:992px) {
-
-            /* This media query is for "Gallery" Page*/
-            .gallerymasonry {
-                column-count: 3;
-                column-gap: 0;
-            }
-        }
