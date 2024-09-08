@@ -43,7 +43,7 @@ Visitors to the website can leave their details to get in touch with the author 
   
  ### Head Section 
  #### Screenshot of main landing page
--![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/home_page_with_mouse_hover.png).
+-![Screenshot of main landing page with mouse hovering over the home page](/readme.doc/home_page_with_mouse_hover.png)
 
 - Language chosen is ***US English.***
 - Meta tags ***"viewport" and "content"*** are included to make the page responsive.
@@ -110,7 +110,7 @@ Visitors to the website can leave their details to get in touch with the author 
 
 #### Screenshot of the information page.
 
-![Screenshot of Information Page ](readme.doc/information_page.png).  
+![Screenshot of Information Page ](readme.doc/information_page.png)
 
 - The information page has header **"h2"** titled" **!!! Explore the modern wonder of the world!!!**,followed by a short paragraph.
 - The paragraph, contents created by the author explains the feelings one could experience.
