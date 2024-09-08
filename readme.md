@@ -9,16 +9,16 @@ Visitors to the website can leave their details to get in touch with the author 
 - The website is designed using the **"Mobile First"** Responsive approach using a structured layout and "meta" tags.  
 - The website has four pages including the landing page.  **"Home", "Information", "Gallery" and "Contact Us"**.  
 - The header includes the title of the website **" Taj Mahal- An Eternal Calling** and is common across all pages   
-- The footer inlcudes the **"copyright"** and **"author"** details and icons for social media  
+- The footer includes the **"copyright"** and **"author"** details and icons for social media  
 - The chocie of foreground and background colors have the right contrast providing a rich user experience .  
-- All images, inclduing the hero image has a **"alt"** element to cater for the visually impaired.    
+- All images, including the hero image has a **"alt"** element to cater for the visually impaired.    
 - All images in the gallery have the right resolution when viewed across screens with different viewports.  
 - All External links open in a seperate tab **-"tickle your curosity"** on the home page and **"best time to visit"** section under the 
  information page.  
-- CSS media queires used where appropriate for different screen sizes.  
-- Masonry layout used to align images in the **"Gallery"** page.  
+- CSS media queries are used where appropriate for different screen sizes.  
+- Masonry layout used to align **images** in the **"Gallery"** page.  
 - Relative paths are used for refering to folders and files.  
-- Favicon is  included to be displayed within the browser tabs and bookmarks bar is added for three different.  
+- Favicon is  included within the browser tabs and bookmarks bar is added for three different screen sizes.  
 - **"Keywords"** and **"Description"** incldued for search engine optimization.  
 - **"Hover"** property used to hightlight pages on navigation bar, social media icons and **"tickle your curosity"** link on landing page.
 
@@ -30,7 +30,7 @@ Visitors to the website can leave their details to get in touch with the author 
         
 ## Technology used in development and testing.
 - **Google Chrome** as the Browser.
-- Cloud-based platform **gitpod.io** and **github** for designing and hosting the website.
+- Cloud-based platform **gitpod.io** and **github** used for designing and hosting the website.
 - Devices with different viewports for testing the responsiveness - **Galaxy A54, iPhone 14 Pro, Galaxy A25, Asus AMD Ryzen7 4800H with 
   Radeon Graphics**.
 
@@ -39,7 +39,7 @@ Visitors to the website can leave their details to get in touch with the author 
 ### Home Page (landing page) 
 - This page is divided into **three sections**- ***Head,Body and Footer***.
 - The **Main** element contains the ***header and hero image***.
-- The **Navigation bar** in the landing page includes links to **three other pages**- ***The Information, Gallery and Contact Us page***.
+- The **Navigation bar** in the landing page includes links to **three other pages**- ***Information, Gallery and Contact_us page***.
   
  ### Head Section 
  #### Screenshot of main landing page
@@ -49,14 +49,14 @@ Visitors to the website can leave their details to get in touch with the author 
 - Meta tags ***"viewport" and "content"*** are included to make the page responsive.
 - ***Keywords*** and ***description*** are added in the head section for **Search Engine Optimization**.
 - The CSS stylesheet which is an external file is **linked** here in the head section.
-- The favicon to be displayed within the browser tabs and bookmarks bar is added for ***three different screen sizes***.
+- The favicon is displayed within the browser tabs and bookmarks bar is added for ***three different screen sizes***.
 - The title **"Taj Mahal"** is defined here.
 
 ### Body Section.
 
 - The body element contains ***"div"*** element nested within it are ***two child elements -"a" and "nav"***.
 - The ***"nav"*** includes a ***"ul"*** with details of each page.
-- The ***Hero*** image is inside a section under the ***main*** element.
+- The ***Hero*** image is inside a section under the ***Main*** element.
 - It also includes the ***footer*** element, which has ***two "h2"*** elements nested within it and a ***"nav"*** which defines the ***"ul"*** for social media.
   
 ### Header. 
